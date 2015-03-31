@@ -1,0 +1,58 @@
+----item----
+version: 1
+id: {AE458590-8604-4DB8-BEEE-D974D1702DA1}
+database: master
+path: /sitecore/layout/Renderings/PaddyPower/Layout/3Column
+parent: {6ED1A01B-69E4-477A-A6EA-9815B6460FAC}
+name: 3Column
+master: {00000000-0000-0000-0000-000000000000}
+template: {99F8905D-4A87-4EB8-9F8B-A9BEBFB3ADD6}
+templatekey: View rendering
+
+----field----
+field: {51B435BC-F7B9-478A-9C51-52916AF96FF5}
+name: Path
+key: path
+content-length: 29
+
+/Views/Layout/_3Column.cshtml
+----field----
+field: {E441ABE7-2CA3-4640-AE26-3789967925D7}
+name: Compatible Renderings
+key: compatible renderings
+content-length: 155
+
+{22701AFE-F688-4857-AB4C-5ADC3B9E16E8}|{9B5F1B05-3D43-4952-A822-751D51F20DBE}|{8A71183E-01F9-4C10-8A2A-9FCC623D3D1C}|{A89B86F7-14D7-41CE-9E20-4914537FCCC3}
+----version----
+language: en
+version: 1
+revision: 55133a10-f6a4-4112-82ab-4657d315f644
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150327T131905Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+55133a10-f6a4-4112-82ab-4657d315f644
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150328T092907:635631317479769993Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

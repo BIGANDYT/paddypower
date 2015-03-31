@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {A75B2F12-89D0-463C-B9A1-CFE4D76DED5C}
+database: master
+path: /sitecore/templates/PaddyPower/Common/Bet/__Standard Values
+parent: {B2970AEE-4BC3-47F8-A7BD-02C5E970DCDA}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {B2970AEE-4BC3-47F8-A7BD-02C5E970DCDA}
+templatekey: Bet
+
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 31
+
+office/32x32/gambling_chips.png
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 370
+
+<r><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{F954AAF7-579F-4B63-9D53-532C106C2790}"><p uid="{E136ECF2-93E8-432B-9C45-3F38DB5CDE8B}" key="content" md="/sitecore/layout/Placeholder Settings/content" /><r uid="{5813DA36-0FDF-4E3A-8EFC-CC1429D82F4E}" id="{D1F61ACC-044B-407F-8601-3B7A0AE56EAB}" ph="/content/col-left_4ba47d90-1a56-45fc-933c-d628331b349a" /></d></r>
+----version----
+language: en
+version: 1
+revision: 74c6b784-a1d3-4d38-8dc1-06880f9dfcce
+
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 433
+
+<r><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{F954AAF7-579F-4B63-9D53-532C106C2790}"><p uid="{E136ECF2-93E8-432B-9C45-3F38DB5CDE8B}" key="content" md="/sitecore/layout/Placeholder Settings/content" /><r uid="{8762D12C-DCF6-49AF-B5CB-FEF7FDBE8988}" id="{79939680-7FCE-43B0-80FA-662DDA27407C}" ph="nav-left" /><r uid="{21740AAE-C3DE-45DE-B80F-CC96A78E130F}" id="{8B07173E-AC10-463B-BFE8-4AB246DD7508}" ph="topnavbar" /></d></r>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150329T192543Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+74c6b784-a1d3-4d38-8dc1-06880f9dfcce
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150329T203430:635632580704902494Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
