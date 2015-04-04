@@ -1,26 +1,40 @@
 ----item----
 version: 1
-id: {C683B7A6-179E-4564-84AE-C05DC0C8C088}
+id: {F7968D00-4D4E-4C3C-A853-BA93E7998074}
 database: master
-path: /sitecore/templates/PaddyPower/Components/Banner/Banner
-parent: {1D4F3617-2957-4ACB-AA2E-731A9F775A67}
-name: Banner
+path: /sitecore/templates/Wrapbootstrap/Wrapbootstrap/__Standard Values
+parent: {1340124B-9B0E-46BF-9141-A7BAC559234E}
+name: __Standard Values
 master: {00000000-0000-0000-0000-000000000000}
-template: {E269FBB5-3750-427A-9149-7AA950B49301}
-templatekey: Template section
+template: {1340124B-9B0E-46BF-9141-A7BAC559234E}
+templatekey: Wrapbootstrap
 
 ----version----
 language: en
 version: 1
-revision: b828c6a4-2c98-459a-8983-730130193bcd
+revision: 1ef686ce-8efc-4f75-af38-18a90aafbe54
 
+----field----
+field: {11CE5012-994E-4576-888D-DC29FB805A4A}
+name: CssClass
+key: cssclass
+content-length: 9
+
+col-lg-12
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
 content-length: 16
 
-20150326T183855Z
+20150403T202124Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -34,14 +48,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-b828c6a4-2c98-459a-8983-730130193bcd
+1ef686ce-8efc-4f75-af38-18a90aafbe54
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150331T120111:635634000714358771Z
+20150403T220316:635636953961146256Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

@@ -303,6 +303,8 @@
     <Content Include="Views\Components\_HeaderPanel.cshtml" />
     <Content Include="Views\Components\_TabPanel.cshtml" />
     <Content Include="Views\Shared\_LogoBar.cshtml" />
+    <Content Include="Views\Layout\Wrapbootstrap\row.cshtml" />
+    <Content Include="Views\Layout\Wrapbootstrap\col.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

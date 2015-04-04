@@ -1,10 +1,10 @@
 ----item----
 version: 1
-id: {A89B86F7-14D7-41CE-9E20-4914537FCCC3}
+id: {DC79BF70-5569-4042-85B4-8F078EC5A7E7}
 database: master
-path: /sitecore/layout/Renderings/PaddyPower/Layout/1Column
-parent: {6ED1A01B-69E4-477A-A6EA-9815B6460FAC}
-name: 1Column
+path: /sitecore/layout/Renderings/Wrapbootstrap/col
+parent: {ED763ED3-B5A3-49EF-B045-0CA45705F4D6}
+name: col
 master: {00000000-0000-0000-0000-000000000000}
 template: {99F8905D-4A87-4EB8-9F8B-A9BEBFB3ADD6}
 templatekey: View rendering
@@ -13,27 +13,34 @@ templatekey: View rendering
 field: {51B435BC-F7B9-478A-9C51-52916AF96FF5}
 name: Path
 key: path
-content-length: 29
+content-length: 38
 
-/Views/Layout/_1Column.cshtml
+/Views/Layout/Wrapbootstrap/col.cshtml
+----field----
+field: {7D24E54F-5C16-4314-90C9-6051AA1A7DA1}
+name: Parameters Template
+key: parameters template
+content-length: 38
+
+{1340124B-9B0E-46BF-9141-A7BAC559234E}
 ----field----
 field: {EF7C5528-7307-4E19-863B-DA19EED6A9ED}
 name: Open Properties after Add
 key: open properties after add
+content-length: 1
+
+1
+----field----
+field: {A2F5D9DF-8CBA-4A1D-99EB-51ACB94CB057}
+name: Page Editor Buttons
+key: page editor buttons
 content-length: 0
 
 
-----field----
-field: {E441ABE7-2CA3-4640-AE26-3789967925D7}
-name: Compatible Renderings
-key: compatible renderings
-content-length: 155
-
-{22701AFE-F688-4857-AB4C-5ADC3B9E16E8}|{AE458590-8604-4DB8-BEEE-D974D1702DA1}|{9B5F1B05-3D43-4952-A822-751D51F20DBE}|{8A71183E-01F9-4C10-8A2A-9FCC623D3D1C}
 ----version----
 language: en
 version: 1
-revision: e3f884ce-2168-4e0a-aaa7-17c010fb50dd
+revision: 0d79b88c-c235-49c5-a1e6-66f686ab9113
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -41,21 +48,21 @@ name: __Created
 key: __created
 content-length: 16
 
-20150328T092545Z
+20150403T192247Z
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-e3f884ce-2168-4e0a-aaa7-17c010fb50dd
+0d79b88c-c235-49c5-a1e6-66f686ab9113
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150328T092817:635631316977260549Z
+20150403T222946:635636969868284232Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

@@ -1,54 +1,61 @@
 ----item----
 version: 1
-id: {8AE1C245-A4FA-46AE-9B35-4FBC15F63169}
-database: master
-path: /sitecore/layout/Placeholder Settings/content
-parent: {1CE3B36C-9B0C-4EB5-A996-BFCB4EAA5287}
-name: content
+id: {6E281DBE-EA70-4F29-9045-265CA310C8F9}
+database: core
+path: /sitecore/content/Applications/WebEdit/Custom Experience Buttons/Sort
+parent: {DB662EDF-5965-4848-AD14-BA6BF0D55D1E}
+name: Sort
 master: {00000000-0000-0000-0000-000000000000}
-template: {5C547D4E-7111-4995-95B0-6B561751BF2E}
-templatekey: Placeholder
+template: {02404208-46D4-49BF-988B-EB363A52A1C9}
+templatekey: WebEdit Button
 
 ----field----
-field: {7256BDAB-1FD2-49DD-B205-CB4873D2917C}
-name: Placeholder Key
-key: placeholder key
-content-length: 7
+field: {E8CC41C7-C304-4282-B782-E21CA32D324C}
+name: Icon
+key: icon
+content-length: 30
 
-content
+Office/16x16/sort_up_down2.png
 ----field----
-field: {E391B526-D0C5-439D-803E-17512EAE6222}
-name: Allowed Controls
-key: allowed controls
-content-length: 38
+field: {1BB289D6-44D7-4FCC-AF15-DB32B841F957}
+name: Click
+key: click
+content-length: 19
 
-{7D36765F-0CE3-4749-A9CF-E8CACF7207F5}
+webedit:sortcontent
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 30
+
+Office/16x16/sort_up_down2.png
 ----version----
 language: da
 version: 1
-revision: ae9936ec-4ff1-484d-b7bc-e59c750174ba
+revision: 5e22c0b8-a2b4-48c5-b16b-d0930fba2730
 
 ----field----
-field: {87871FF5-1965-46D6-884F-01D6A0B9C4C1}
-name: Description
-key: description
-content-length: 391
+field: {C523ABA8-D1A1-4DCB-AEEE-52635A4AB2AE}
+name: Header
+key: header
+content-length: 15
 
-<div>
-      <b>Placeholder for indhold</b>
-      <div>
+Sorter indhold.
+----field----
+field: {371E0D96-4F00-4B80-AD14-6284E00493BA}
+name: Tooltip
+key: tooltip
+content-length: 17
 
-<div style="padding:8px 8px 0px 8px;width:200px">
-<img height="32" width="32" alt="Sample rendering" style="float:left;margin:0px 8px 0px 0px" src="~/icon/Business/32x32/table_selection_block.png?w=32&amp;h=32&amp;as=1" />
-<div>Placeholderen for indhold er den primære placeholder.<div></div></div></div></div>
-<div></div></div>
+Sorter indholdet.
 ----field----
 field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
 name: __Display name
 key: __display name
-content-length: 7
+content-length: 6
 
-indhold
+Sorter
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -62,7 +69,7 @@ name: __Created
 key: __created
 content-length: 35
 
-20150223T132645:635602948053318810Z
+20150223T132607:635602947678486598Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -76,14 +83,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-ae9936ec-4ff1-484d-b7bc-e59c750174ba
+5e22c0b8-a2b4-48c5-b16b-d0930fba2730
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150404T103500:635637405009547341Z
+20150223T132938:635602949785018632Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -94,29 +101,29 @@ sitecore\admin
 ----version----
 language: de-DE
 version: 1
-revision: 48e2ad02-d57e-40a1-952c-c0bcbc59c13f
+revision: cfd6338d-6479-4c6b-b70f-e6ed159b25f0
 
 ----field----
-field: {87871FF5-1965-46D6-884F-01D6A0B9C4C1}
-name: Description
-key: description
-content-length: 385
+field: {C523ABA8-D1A1-4DCB-AEEE-52635A4AB2AE}
+name: Header
+key: header
+content-length: 14
 
-<div>
-      <b>Content-Platzhalter</b>
-      <div>
+Inhalt ordnen.
+----field----
+field: {371E0D96-4F00-4B80-AD14-6284E00493BA}
+name: Tooltip
+key: tooltip
+content-length: 18
 
-<div style="padding:8px 8px 0px 8px;width:200px">
-<img height="32" width="32" alt="Beispiel Rendering" style="float:left;margin:0px 8px 0px 0px" src="~/icon/Business/32x32/table_selection_block.png?w=32&amp;h=32&amp;as=1" />
-<div>Der Content-Platzhalter ist der Hauptplatzhalter.<div></div></div></div></div>
-<div></div></div>
+Den Inhalt ordnen.
 ----field----
 field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
 name: __Display name
 key: __display name
-content-length: 6
+content-length: 9
 
-Inhalt
+Sortieren
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -130,7 +137,7 @@ name: __Created
 key: __created
 content-length: 35
 
-20150223T132804:635602948848317392Z
+20150223T132721:635602948417219148Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -144,14 +151,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-48e2ad02-d57e-40a1-952c-c0bcbc59c13f
+cfd6338d-6479-4c6b-b70f-e6ed159b25f0
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150404T103500:635637405009297162Z
+20150223T133019:635602950192673858Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -162,24 +169,22 @@ sitecore\admin
 ----version----
 language: en
 version: 1
-revision: 321f0cef-a0b2-4380-9c4a-de9cbe3ceab2
+revision: f5ae7d9a-d481-4b5a-ba65-5a602410f86d
 
 ----field----
-field: {87871FF5-1965-46D6-884F-01D6A0B9C4C1}
-name: Description
-key: description
-content-length: 377
+field: {C523ABA8-D1A1-4DCB-AEEE-52635A4AB2AE}
+name: Header
+key: header
+content-length: 13
 
+Sort content.
+----field----
+field: {371E0D96-4F00-4B80-AD14-6284E00493BA}
+name: Tooltip
+key: tooltip
+content-length: 17
 
-		<div>
-      <b>Content Placeholder</b>
-      <div>
-
-<div style="padding:8px 8px 0px 8px;width:200px">
-<img height="32" width="32" alt="Sample Rendering" style="float:left;margin:0px 8px 0px 0px" src="~/icon/Business/32x32/table_selection_block.png?w=32&amp;h=32&amp;as=1">
-<div>The content placeholder is the main placeholder.<div></div></div></div></div>
-<div></div></div>
-
+Sort the content.
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -191,9 +196,9 @@ sitecore\admin
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
-content-length: 15
+content-length: 16
 
-20080110T095900
+20120222T091100Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -207,14 +212,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-321f0cef-a0b2-4380-9c4a-de9cbe3ceab2
+f5ae7d9a-d481-4b5a-ba65-5a602410f86d
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150404T103500:635637405008721752Z
+20140902T113317:635452543972464957Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -225,29 +230,29 @@ sitecore\admin
 ----version----
 language: ja-JP
 version: 1
-revision: 6dc3bf03-cefc-449e-83ba-576865d5ad96
+revision: 0fab57a8-e03a-4c8a-944c-91dfae70a164
 
 ----field----
-field: {87871FF5-1965-46D6-884F-01D6A0B9C4C1}
-name: Description
-key: description
-content-length: 387
+field: {C523ABA8-D1A1-4DCB-AEEE-52635A4AB2AE}
+name: Header
+key: header
+content-length: 10
 
-<div>
-      <b>コンテンツ (content) プレースホルダー</b>
-      <div>
+コンテンツの並べ替え
+----field----
+field: {371E0D96-4F00-4B80-AD14-6284E00493BA}
+name: Tooltip
+key: tooltip
+content-length: 13
 
-<div style="padding:8px 8px 0px 8px;width:200px">
-<img height="32" width="32" alt="コンテンツ (content) プレースホルダー" style="float:left;margin:0px 8px 0px 0px" src="~/icon/Business/32x32/table_selection_block.png?w=32&amp;h=32&amp;as=1" />
-<div>コンテンツ (content) プレースホルダーはメインのプレースホルダーです。<div></div></div></div></div>
-<div></div></div>
+コンテンツを並べ替えします
 ----field----
 field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
 name: __Display name
 key: __display name
-content-length: 15
+content-length: 4
 
-コンテンツ (content)
+並べ替え
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -261,7 +266,7 @@ name: __Created
 key: __created
 content-length: 35
 
-20150223T132527:635602947270370658Z
+20150223T132442:635602946825842202Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -275,14 +280,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-6dc3bf03-cefc-449e-83ba-576865d5ad96
+0fab57a8-e03a-4c8a-944c-91dfae70a164
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150404T103500:635637405009067000Z
+20150223T133101:635602950613289113Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

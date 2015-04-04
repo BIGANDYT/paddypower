@@ -49,5 +49,11 @@
     <File Include="Views\Shared\_LogoBar.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
       <Item DatabaseName="master">{57A9BDCA-E1FF-44AD-810C-2117B6F38F7F}</Item>
     </File>
+    <File Include="Views\Layout\Wrapbootstrap\row.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="master">{7D36765F-0CE3-4749-A9CF-E8CACF7207F5}</Item>
+    </File>
+    <File Include="Views\Layout\Wrapbootstrap\col.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="master">{DC79BF70-5569-4042-85B4-8F078EC5A7E7}</Item>
+    </File>
   </ItemGroup>
 </Project>

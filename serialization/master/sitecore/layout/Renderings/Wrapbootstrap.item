@@ -1,18 +1,18 @@
 ----item----
 version: 1
-id: {C683B7A6-179E-4564-84AE-C05DC0C8C088}
+id: {ED763ED3-B5A3-49EF-B045-0CA45705F4D6}
 database: master
-path: /sitecore/templates/PaddyPower/Components/Banner/Banner
-parent: {1D4F3617-2957-4ACB-AA2E-731A9F775A67}
-name: Banner
+path: /sitecore/layout/Renderings/Wrapbootstrap
+parent: {32566F0E-7686-45F1-A12F-D7260BD78BC3}
+name: Wrapbootstrap
 master: {00000000-0000-0000-0000-000000000000}
-template: {E269FBB5-3750-427A-9149-7AA950B49301}
-templatekey: Template section
+template: {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
+templatekey: Folder
 
 ----version----
 language: en
 version: 1
-revision: b828c6a4-2c98-459a-8983-730130193bcd
+revision: 25d6f3b6-cc5b-4494-8f9a-568595955b36
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -20,7 +20,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20150326T183855Z
+20150403T192225Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -34,14 +34,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-b828c6a4-2c98-459a-8983-730130193bcd
+25d6f3b6-cc5b-4494-8f9a-568595955b36
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150331T120111:635634000714358771Z
+20150403T192232:635636857523917211Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
