@@ -9,8 +9,6 @@ namespace Inspinia_MVC5_SeedProject
         public static void RegisterBundles(BundleCollection bundles)
         {
 
-
-
             // Vendor scripts
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
                         "~/Scripts/jquery-2.1.1.min.js"));
@@ -56,12 +54,17 @@ namespace Inspinia_MVC5_SeedProject
             // CSS style (bootstrap/inspinia)
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.min.css",
-                      "~/Content/style.css"));
+                      "~/Content/wrapbootstrap.css"));
 
             bundles.Add(new StyleBundle("~/font-awesome/css").Include(
                       "~/fonts/font-awesome/css/font-awesome.min.css"));
 
-
+            bundles.Add(new StyleBundle("~/themes/green").Include(
+                      "~/Content/themes/Green/green.css"));
+            bundles.Add(new StyleBundle("~/themes/blue").Include(
+                     "~/Content/themes/Blue/blue.css"));
+            bundles.Add(new StyleBundle("~/themes/pink").Include(
+                     "~/Content/themes/Pink/pink.css"));
         }
     }
 }

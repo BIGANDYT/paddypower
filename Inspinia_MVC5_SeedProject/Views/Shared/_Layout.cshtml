@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PaddyPower</title>
     @Styles.Render("~/Content/css")
+    @Styles.Render("~/themes/" + @Sitecore.Context.Item.Fields["SiteStyle"].Value)
     @Styles.Render("~/font-awesome/css")
 </head>
 <body>

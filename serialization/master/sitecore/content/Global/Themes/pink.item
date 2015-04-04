@@ -1,40 +1,47 @@
 ----item----
 version: 1
-id: {CDE11856-A40F-4486-9857-4BDD9AAE72A7}
+id: {492141AA-4D5A-4540-A3B3-1BB64E3AEC16}
 database: master
-path: /sitecore/content/Global/Banners/Bingo2
-parent: {65ACAFC4-464E-417E-964B-EDD05F889FE0}
-name: Bingo2
+path: /sitecore/content/Global/Themes/pink
+parent: {7BCE3090-7A51-4AA4-A66C-F6C576ABA2C4}
+name: pink
 master: {00000000-0000-0000-0000-000000000000}
-template: {1D4F3617-2957-4ACB-AA2E-731A9F775A67}
-templatekey: Banner
+template: {46A639F7-DC77-4203-AC1D-0B56C710AD57}
+templatekey: Theme
 
 ----version----
 language: en
 version: 1
-revision: e73e70fd-45c3-4aa5-adc3-74e28967aef6
+revision: bcce9724-fc2f-4e27-b8a3-5496386de4d5
 
+----field----
+field: {AA34E555-776C-4627-8F11-FC13C623BE16}
+name: Name
+key: name
+content-length: 4
+
+pink
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
 content-length: 16
 
-20150331T114712Z
+20150404T210336Z
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-e73e70fd-45c3-4aa5-adc3-74e28967aef6
+bcce9724-fc2f-4e27-b8a3-5496386de4d5
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150331T114713:635633992330021883Z
+20150404T210336:635637782163666799Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

@@ -12,7 +12,7 @@ templatekey: PromoImage
 ----version----
 language: en
 version: 1
-revision: de5faf34-63b2-4a52-b32b-0adeadc24eb2
+revision: c2088bf9-df46-428d-a607-f94e9eeb273b
 
 ----field----
 field: {9C88C8AD-8186-464D-AF9D-BFDA88D9EBA8}
@@ -27,7 +27,7 @@ name: PromoImage
 key: promoimage
 content-length: 58
 
-<image mediaid="{01E7A452-7CEA-4DE2-9EEF-284CCD7FDBED}" />
+<image mediaid="{60905A92-DF45-48B2-A2B5-E9C4A274926B}" />
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
@@ -41,14 +41,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-de5faf34-63b2-4a52-b32b-0adeadc24eb2
+c2088bf9-df46-428d-a607-f94e9eeb273b
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150328T231802:635631814827151855Z
+20150404T161018:635637606182146860Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

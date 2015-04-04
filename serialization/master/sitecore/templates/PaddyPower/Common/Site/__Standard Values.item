@@ -27,13 +27,13 @@ content-length: 38
 field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
 name: __Renderings
 key: __renderings
-content-length: 415
+content-length: 262
 
-<r xmlns:xsd="http://www.w3.org/2001/XMLSchema"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{F954AAF7-579F-4B63-9D53-532C106C2790}"><p uid="{E136ECF2-93E8-432B-9C45-3F38DB5CDE8B}" key="content" md="/sitecore/layout/Placeholder Settings/content" /><r uid="{5813DA36-0FDF-4E3A-8EFC-CC1429D82F4E}" id="{D1F61ACC-044B-407F-8601-3B7A0AE56EAB}" ph="/content/col-left_4ba47d90-1a56-45fc-933c-d628331b349a" /></d></r>
+<r xmlns:xsd="http://www.w3.org/2001/XMLSchema" ><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{F954AAF7-579F-4B63-9D53-532C106C2790}"><p uid="{E136ECF2-93E8-432B-9C45-3F38DB5CDE8B}" key="content" md="/sitecore/layout/Placeholder Settings/content" /></d></r>
 ----version----
 language: en
 version: 1
-revision: 745d2503-abf0-4ce0-bebe-3d0abcae4e89
+revision: 59a949ed-84c2-4fa4-8686-3e15537c9b61
 
 ----field----
 field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
@@ -69,18 +69,18 @@ name: __Revision
 key: __revision
 content-length: 36
 
-745d2503-abf0-4ce0-bebe-3d0abcae4e89
+59a949ed-84c2-4fa4-8686-3e15537c9b61
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150404T103437:635637404779563964Z
+20150404T160457:635637602970695662Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
-content-length: 14
+content-length: 22
 
-sitecore\admin
+sitecore\virtualssuser

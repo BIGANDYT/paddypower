@@ -20,13 +20,13 @@ col
 field: {E391B526-D0C5-439D-803E-17512EAE6222}
 name: Allowed Controls
 key: allowed controls
-content-length: 194
+content-length: 155
 
-{87DE68F5-569C-4930-9FEF-6354599BFB92}|{6D236429-DC1E-47C9-9CCE-F7D31E38233E}|{73741A1C-B231-4B5A-A1D8-68A69647DEE1}|{D0F7D054-EFB8-476F-BAC3-C9FBB22B76BA}|{D1F61ACC-044B-407F-8601-3B7A0AE56EAB}
+{87DE68F5-569C-4930-9FEF-6354599BFB92}|{6D236429-DC1E-47C9-9CCE-F7D31E38233E}|{73741A1C-B231-4B5A-A1D8-68A69647DEE1}|{D0F7D054-EFB8-476F-BAC3-C9FBB22B76BA}
 ----version----
 language: en
 version: 1
-revision: 463b2661-5afd-480c-bb11-a29688390938
+revision: a2a363fb-4ecc-40a0-b353-08d11395e3dc
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -41,18 +41,18 @@ name: __Revision
 key: __revision
 content-length: 36
 
-463b2661-5afd-480c-bb11-a29688390938
+a2a363fb-4ecc-40a0-b353-08d11395e3dc
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150403T193201:635636863217400300Z
+20150404T160457:635637602970383194Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
-content-length: 14
+content-length: 22
 
-sitecore\admin
+sitecore\virtualssuser

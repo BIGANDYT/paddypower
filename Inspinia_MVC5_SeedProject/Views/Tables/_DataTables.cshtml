@@ -1,19 +1,25 @@
-﻿<table class="table">
-    <tbody>
-        @for (var i = 0; i < 20; i++)
-        {
-            <tr class="gradeX">
-                <td class="center vert-align">02:00</td>
-                <td class="center vert-align">
-                    Costa Rica v Paraguay
-                </td>
-                <td class="center vert-align"><i class="fa fa-soccer-ball-o" /></td>
-                <td class="center vert-align"><a class="btn btn-primary" href="#" role="button">11/10</a></td>
-                <td class="center vert-align"><a class="btn btn-primary" href="#" role="button">21/10</a></td>
-                <td class="center vert-align"><a class="btn btn-primary" href="#" role="button">12/5</a></td>
-                <td class="center vert-align">+68 More bets</td>
-                <td class="center vert-align"><span class="line">5,3,9,6,5,9,7,3,5,2</span></td>
-            </tr>
-        }
-    </tbody>
-</table>
+﻿@model Inspinia_MVC5_SeedProject.Models.TableData
+@using Inspinia_MVC5_SeedProject.Models
+@using Inspinia_MVC5_SeedProject.Constant
+@if (Model.Data != null && Model.Data.Count > 0)
+{
+    foreach (Bet bet in @Model.Data)
+    {
+        <div class="row top-buffer">
+            <div class="col-xs-2 col-lg-1">@bet.time</div>
+            <div class="col-xs-10 col-lg-3">@bet.marketName</div>
+            <div class="hidden-xs col-lg-1">@bet.icon</div>
+            <div class="col-xs-4 col-lg-1"><a class="btn btn-primary" href="#" role="button">@bet.win</a></div>
+            <div class="col-xs-4 col-lg-1"><a class="btn btn-primary" href="#" role="button">@bet.draw</a></div>
+            <div class="col-xs-4 col-lg-1"><a class="btn btn-primary" href="#" role="button">@bet.lose</a></div>
+            <div class="hidden-xs col-lg-2">@bet.relatedBets</div>
+            <div class="hidden-xs col-lg-2"><span class="line">@string.Join(",", @bet.graph)</span></div>
+        </div>
+    }
+}
+else
+{
+    <div class="row top-buffer">
+        <div class="col-lg-12">@ErrorConstants.NO_DATA_DATATABLE</div>
+    </div>
+}

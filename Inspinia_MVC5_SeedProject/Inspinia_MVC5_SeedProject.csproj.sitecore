@@ -10,23 +10,8 @@
     <File Include="Views\Tables\_DataTables.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
       <Item DatabaseName="master">{46914D6E-267A-4E0B-B9B1-66B92FF57D39}</Item>
     </File>
-    <File Include="Views\Layout\_2Column.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
-      <Item DatabaseName="master">{22701AFE-F688-4857-AB4C-5ADC3B9E16E8}</Item>
-    </File>
-    <File Include="Views\Layout\_3Column.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
-      <Item DatabaseName="master">{AE458590-8604-4DB8-BEEE-D974D1702DA1}</Item>
-    </File>
-    <File Include="Views\Layout\_4Column.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
-      <Item DatabaseName="master">{9B5F1B05-3D43-4952-A822-751D51F20DBE}</Item>
-    </File>
     <File Include="Views\Components\_EmbedVideo.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
       <Item DatabaseName="master">{6D236429-DC1E-47C9-9CCE-F7D31E38233E}</Item>
-    </File>
-    <File Include="Views\Layout\_1Column.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
-      <Item DatabaseName="master">{A89B86F7-14D7-41CE-9E20-4914537FCCC3}</Item>
-    </File>
-    <File Include="Views\Layout\_2ColumnBigLeft.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
-      <Item DatabaseName="master">{8A71183E-01F9-4C10-8A2A-9FCC623D3D1C}</Item>
     </File>
     <File Include="Views\Shared\_TopNavbar.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
       <Item DatabaseName="master">{8B07173E-AC10-463B-BFE8-4AB246DD7508}</Item>
@@ -42,9 +27,6 @@
     </File>
     <File Include="Views\Components\_HeaderPanel.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
       <Item DatabaseName="master">{73741A1C-B231-4B5A-A1D8-68A69647DEE1}</Item>
-    </File>
-    <File Include="Views\Components\_TabPanel.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
-      <Item DatabaseName="master">{D1F61ACC-044B-407F-8601-3B7A0AE56EAB}</Item>
     </File>
     <File Include="Views\Shared\_LogoBar.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
       <Item DatabaseName="master">{57A9BDCA-E1FF-44AD-810C-2117B6F38F7F}</Item>

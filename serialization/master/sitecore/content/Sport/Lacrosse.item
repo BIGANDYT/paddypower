@@ -9,10 +9,17 @@ master: {00000000-0000-0000-0000-000000000000}
 template: {B2970AEE-4BC3-47F8-A7BD-02C5E970DCDA}
 templatekey: Bet
 
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 4
+
+1600
 ----version----
 language: en
 version: 1
-revision: 09d10cfd-0576-40e9-8017-08f5d3c217cb
+revision: 27dc329a-460a-4927-b152-728ab3aba167
 
 ----field----
 field: {BBB52EF2-B227-4425-832B-9DA944ACBC46}
@@ -55,14 +62,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-09d10cfd-0576-40e9-8017-08f5d3c217cb
+27dc329a-460a-4927-b152-728ab3aba167
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150329T224352:635632658325596907Z
+20150404T213917:635637803571136698Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
