@@ -209,6 +209,7 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\patterns\congruent_pentagon.png" />
+    <Content Include="Content\plugins\rrsocialshare\rrssb.css" />
     <Content Include="Content\themes\Pink\Pink.css" />
     <Content Include="Content\themes\Pink\header-bg.png" />
     <Content Include="Content\themes\Blue\Blue.css" />
@@ -278,6 +279,7 @@
     <Content Include="Scripts\plugins\metisMenu\jquery.metisMenu.js" />
     <Content Include="Scripts\plugins\pace\pace.min.js" />
     <Content Include="Scripts\plugins\peity\jquery.peity.min.js" />
+    <Content Include="Scripts\plugins\rrsociashare\rrssb.min.js" />
     <Content Include="Scripts\plugins\slimscroll\jquery.slimscroll.min.js" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
@@ -307,6 +309,7 @@
     <Content Include="Views\Shared\_LogoBar.cshtml" />
     <Content Include="Views\Layout\Wrapbootstrap\row.cshtml" />
     <Content Include="Views\Layout\Wrapbootstrap\col.cshtml" />
+    <Content Include="Views\Components\_SocialShare.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

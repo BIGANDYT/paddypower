@@ -55,16 +55,23 @@ namespace Inspinia_MVC5_SeedProject
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.min.css",
                       "~/Content/wrapbootstrap.css"));
-
+            //Font Awesome
             bundles.Add(new StyleBundle("~/font-awesome/css").Include(
                       "~/fonts/font-awesome/css/font-awesome.min.css"));
 
+            // Site Themes
             bundles.Add(new StyleBundle("~/themes/green").Include(
                       "~/Content/themes/Green/green.css"));
             bundles.Add(new StyleBundle("~/themes/blue").Include(
                      "~/Content/themes/Blue/blue.css"));
             bundles.Add(new StyleBundle("~/themes/pink").Include(
                      "~/Content/themes/Pink/pink.css"));
+
+            //Ridiculous Responsive Social Share
+            bundles.Add(new ScriptBundle("~/plugins/socialshare").Include(
+                      "~/Scripts/plugins/rrsociashare/rrssb.min.js"));
+            bundles.Add(new StyleBundle("~/rrsociashare/css").Include(
+                     "~/Content/plugins/rrsocialshare/rrssb.css"));
         }
     }
 }

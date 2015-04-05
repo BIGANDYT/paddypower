@@ -1,10 +1,10 @@
 ----item----
 version: 1
-id: {6D236429-DC1E-47C9-9CCE-F7D31E38233E}
+id: {9B221C52-DDE6-43ED-80DF-6D59C77D6686}
 database: master
-path: /sitecore/layout/Renderings/PaddyPower/Components/EmbedVideo
+path: /sitecore/layout/Renderings/PaddyPower/Components/_SocialShare
 parent: {67EFB612-AB44-48B7-B151-FD2719FABD5B}
-name: EmbedVideo
+name: _SocialShare
 master: {00000000-0000-0000-0000-000000000000}
 template: {99F8905D-4A87-4EB8-9F8B-A9BEBFB3ADD6}
 templatekey: View rendering
@@ -13,41 +13,20 @@ templatekey: View rendering
 field: {51B435BC-F7B9-478A-9C51-52916AF96FF5}
 name: Path
 key: path
-content-length: 36
+content-length: 37
 
-/Views/Components/_EmbedVideo.cshtml
-----field----
-field: {B5B27AF1-25EF-405C-87CE-369B3A004016}
-name: Datasource Location
-key: datasource location
-content-length: 36
-
-/sitecore/content/Global/EmdedVideos
-----field----
-field: {1A7C85E5-DC0B-490D-9187-BB1DBCB4C72F}
-name: Datasource Template
-key: datasource template
-content-length: 52
-
-/sitecore/templates/PaddyPower/Components/EmbedVideo
+/Views/Components/_SocialShare.cshtml
 ----field----
 field: {E441ABE7-2CA3-4640-AE26-3789967925D7}
 name: Compatible Renderings
 key: compatible renderings
 content-length: 77
 
-{9B221C52-DDE6-43ED-80DF-6D59C77D6686}|{D0F7D054-EFB8-476F-BAC3-C9FBB22B76BA}
-----field----
-field: {A2F5D9DF-8CBA-4A1D-99EB-51ACB94CB057}
-name: Page Editor Buttons
-key: page editor buttons
-content-length: 38
-
-{65EB93D0-3832-4F54-9AC0-2002C58E5950}
+{6D236429-DC1E-47C9-9CCE-F7D31E38233E}|{D0F7D054-EFB8-476F-BAC3-C9FBB22B76BA}
 ----version----
 language: en
 version: 1
-revision: 99023adb-260f-4765-847f-a20e5889fa6c
+revision: da8d9ab7-0ecd-49f7-ad35-80ce6b5984ed
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -55,21 +34,21 @@ name: __Created
 key: __created
 content-length: 16
 
-20150327T222818Z
+20150405T085635Z
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-99023adb-260f-4765-847f-a20e5889fa6c
+da8d9ab7-0ecd-49f7-ad35-80ce6b5984ed
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150405T102821:635638265019688185Z
+20150405T102840:635638265207603685Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
