@@ -1,13 +1,16 @@
-﻿@foreach (var listitem in Model.Data){
+﻿@model Inspinia_MVC5_SeedProject.Models.NavList
+@foreach (var listitem in Model.Data)
+{
     <li class="navlist">
         <div>
             <div>
-                <a href=" @Sitecore.Links.LinkManager.GetItemUrl(listitem) ;">
-        @Html.Sitecore().Field("Icon", listitem, new { @class = "img-responsive" })</a>
-                </div>
-                <div>
-                    <a href="@Sitecore.Links.LinkManager.GetItemUrl(listitem);"><span class="nav-label">@listitem.Fields["Title"].Value</span> </a>
-                </div>
-                </div>
-            </li>
+                <a href="@Sitecore.Links.LinkManager.GetItemUrl(listitem)">
+                    @Html.Sitecore().Field("Icon", listitem, new { @class = "img-responsive" })
+                </a>
+            </div>
+            <div>
+                <a href="@Sitecore.Links.LinkManager.GetItemUrl(listitem)"><span class="nav-label">@listitem.Fields["Title"].Value</span> </a>
+            </div>
+        </div>
+    </li>
 }

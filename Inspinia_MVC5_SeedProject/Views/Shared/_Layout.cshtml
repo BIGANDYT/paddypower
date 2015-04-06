@@ -9,6 +9,11 @@
     <title>PaddyPower</title>
     @Styles.Render("~/Content/css")
     @Styles.Render("~/font-awesome/css")
+
+    @Scripts.Render("~/bundles/jquery")
+    <script>
+        var jQuery2 = jQuery.noConflict();
+    </script>
 </head>
 <body>
 
@@ -32,11 +37,6 @@
 
     </div>
     <!-- End wrapper-->
-    @Scripts.Render("~/bundles/jquery")
-    <script>
-        var jQuery2 = jQuery.noConflict();
-    </script>
-
     @Scripts.Render("~/bundles/bootstrap")
     @Scripts.Render("~/plugins/metsiMenu")
     @Scripts.Render("~/plugins/pace")
