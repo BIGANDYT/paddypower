@@ -11,7 +11,7 @@
     @Styles.Render("~/themes/" + @Sitecore.Context.Item.Fields["SiteStyle"].Value)
     @Styles.Render("~/font-awesome/css")
     @Styles.Render("~/rrsociashare/css")
-   
+
 </head>
 <body>
 
@@ -48,9 +48,11 @@
     @Scripts.Render("~/plugins/peity")
     @Scripts.Render("~/plugins/fittext")
     @Scripts.Render("~/plugins/socialshare")
+
     <script>
         var updatingChart = jQuery2(".line").peity("line", { width: 64, fill: ["green"] });
-        jQuery2(".fittext").fitText();
+        @(Sitecore.Context.PageMode.IsPageEditorEditing ? null : Html.Raw("jQuery2(\".fittext\").fitText();"))
     </script>
+
 </body>
 </html>

@@ -12,8 +12,15 @@ templatekey: Game
 ----version----
 language: en
 version: 1
-revision: 4ea98110-6193-43fe-a6c9-244c8f53d920
+revision: ef46487f-3773-4287-9038-55b6110b3fe5
 
+----field----
+field: {59748DFA-60AB-4A40-B920-042EAA5889FC}
+name: GameId
+key: gameid
+content-length: 1
+
+3
 ----field----
 field: {AFAE0F47-26D4-4F4A-867E-80BCBE825784}
 name: Name
@@ -43,6 +50,20 @@ content-length: 39
 
 Monty Pythons Spamalot information here
 ----field----
+field: {5C7CB243-7371-4C8E-B428-BA5EE6241728}
+name: RealPlayLink
+key: realplaylink
+content-length: 320
+
+<link linktype="external" url="https://www.paddypower.com/bet?action=go_playtech_casino_login&amp;ptinstantcasino=1&amp;refresh_parent=Y&amp;template_id=Casino&amp;bus_channel=C&amp;mode=real&amp;wmode=opaque&amp;game=spm&amp;obaffid=&amp;obchannel=O&amp;language=en&amp;login_redir_img=spm" anchor="" target="_blank" />
+----field----
+field: {86D8E74A-9C55-45CF-8BD0-EBFB906D8252}
+name: PracticePlayLink
+key: practiceplaylink
+content-length: 297
+
+<link linktype="external" url="https://cachedownload.casino.paddypower.com/flash/4/casino_Paddypower_Production/launchcasino.html?game=spm&amp;preferedmode=offline&amp;language=en&amp;obchannel=O&amp;wmode=opaque&amp;currency=gbp&amp;waitlogin=0&amp;paddypower=1&amp;" anchor="" target="_blank" />
+----field----
 field: {F33314B7-2C80-4D0D-BC3C-C66E73988387}
 name: FooterLink
 key: footerlink
@@ -62,14 +83,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-4ea98110-6193-43fe-a6c9-244c8f53d920
+ef46487f-3773-4287-9038-55b6110b3fe5
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150406T151803:635639302838339317Z
+20150406T184804:635639428845585165Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
