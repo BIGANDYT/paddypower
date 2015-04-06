@@ -1,0 +1,41 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model RenderingModel
+<div class="casino-game" data-goal-id="@Model.Item["Goal"]" data-url="@Model.Item["ThirdPartyUrl"]">
+    @Html.Sitecore().Field("Croupier", Model.Item, new { @class = "img-responsive" })
+</div>
+
+@if (!Sitecore.Context.PageMode.IsPageEditor)
+{
+    @*TODO: Some code to make sure this only outputs once?*@
+    <style type="text/css">
+        .casino-game {
+            cursor: pointer;
+        }
+    </style>
+    <script>
+        var casinoGames;
+
+        if (!casinoGames) {
+            casinoGames = true;
+
+            (function($) {
+                $(document).ready(function() {
+                    $('.casino-game').each(function() {
+                        $(this).click(function (e) {
+                            e.preventDefault();
+
+                            $.ajax({
+                                url: "/"
+                            }).done(function() {
+                                console.log("AJAX done");
+                            });
+
+                            window.open($(this).attr('data-url'), "popupWindow", "width=600,height=800,scrollbars=yes");
+                        });
+                    });
+                });
+            })(jQuery2);
+        }
+    </script>
+}

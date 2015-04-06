@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {352EFB85-80BE-444D-9E85-501E12B3036C}
+database: master
+path: /sitecore/content/Sport/LiveCasino
+parent: {110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9}
+name: LiveCasino
+master: {00000000-0000-0000-0000-000000000000}
+template: {DCB9DF6F-B68E-47A1-81DA-7248054D0B70}
+templatekey: LiveCasino
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 475
+
+<r xmlns:p="p" xmlns:s="s" p:p="1" s:xsd="http://www.w3.org/2001/XMLSchema"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{5813DA36-0FDF-4E3A-8EFC-CC1429D82F4E}"><p:d /></r><r uid="{8762D12C-DCF6-49AF-B5CB-FEF7FDBE8988}" p:before="r[@uid='{21740AAE-C3DE-45DE-B80F-CC96A78E130F}']" s:id="{79939680-7FCE-43B0-80FA-662DDA27407C}" s:ph="nav-left" /><r uid="{21740AAE-C3DE-45DE-B80F-CC96A78E130F}" s:id="{8B07173E-AC10-463B-BFE8-4AB246DD7508}" s:ph="topnavbar" /></d></r>
+----version----
+language: en
+version: 1
+revision: c3654023-50c8-4054-ba77-bbf2c2829533
+
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 1374
+
+<r xmlns:p="p" xmlns:s="s" p:p="1" s:xsd="http://www.w3.org/2001/XMLSchema"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{C77A7226-6ED1-4E0C-BC2A-8B81EEFE8587}" p:before="r[@uid='{816C12C7-60A5-4CCD-8F2B-C2F5B29D6D6B}']" s:ds="{58DC726B-A41B-469E-9D53-89C15663A9B6}" s:id="{5899894D-C166-4F11-B234-66ED76FE230B}" s:ph="/content/col-right_7476c009-ee32-4331-8c25-06b68c59456a" /><r uid="{816C12C7-60A5-4CCD-8F2B-C2F5B29D6D6B}" p:before="r[@uid='{758CCD88-E046-4013-AC95-7360F41F9E91}']" s:ds="{189439EC-81B6-437D-8BAC-0AAF0F1E035D}" s:id="{5899894D-C166-4F11-B234-66ED76FE230B}" s:ph="/content/col-middle-right_7476c009-ee32-4331-8c25-06b68c59456a" /><r uid="{758CCD88-E046-4013-AC95-7360F41F9E91}" p:before="r[@uid='{A210B9B3-4760-4008-8B99-DEB7C44B3D24}']" s:ds="{9CDAB9D3-37AE-4082-BC7E-91EECBFB4795}" s:id="{5899894D-C166-4F11-B234-66ED76FE230B}" s:ph="/content/col-middle-left_7476c009-ee32-4331-8c25-06b68c59456a" /><r uid="{A210B9B3-4760-4008-8B99-DEB7C44B3D24}" p:before="r[@uid='{7476C009-EE32-4331-8C25-06B68C59456A}']" s:ds="{0EC907A2-8E36-498A-BFB8-9F8297C7C65A}" s:id="{5899894D-C166-4F11-B234-66ED76FE230B}" s:ph="/content/col-left_7476c009-ee32-4331-8c25-06b68c59456a" /><r uid="{7476C009-EE32-4331-8C25-06B68C59456A}" p:before="r[@uid='{8762D12C-DCF6-49AF-B5CB-FEF7FDBE8988}']" s:id="{9B5F1B05-3D43-4952-A822-751D51F20DBE}" s:ph="content" /></d></r>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150331T122856Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c3654023-50c8-4054-ba77-bbf2c2829533
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150331T132547:635634051470622686Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

@@ -92,8 +92,18 @@
     <Reference Include="Ninject">
       <HintPath>..\packages\Ninject.3.0.1.10\lib\net45-full\Ninject.dll</HintPath>
     </Reference>
+    <Reference Include="Sitecore.Analytics">
+      <HintPath>..\lib\Sitecore.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Analytics.Core">
+      <HintPath>..\lib\Sitecore.Analytics.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Analytics.Model">
+      <HintPath>..\lib\Sitecore.Analytics.Model.dll</HintPath>
+    </Reference>
     <Reference Include="Sitecore.Kernel">
       <HintPath>..\lib\Sitecore.Kernel.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.Mvc">
       <HintPath>..\lib\Sitecore.Mvc.dll</HintPath>
@@ -191,6 +201,10 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Handlers\RegisterGoal.ashx.cs">
+      <DependentUpon>RegisterGoal.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\AnalyticsHelper.cs" />
     <Compile Include="Helpers\HMTLHelperExtensions.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Bet.cs" />
@@ -273,6 +287,7 @@
     <Content Include="fonts\font-awesome\scss\_variables.scss" />
     <Content Include="App_Config\Include\DynamicPlaceholders\DynamicPlaceholders.config" />
     <Content Include="App_Config\Include\Serialization.config" />
+    <Content Include="Handlers\RegisterGoal.ashx" />
     <None Include="Properties\PublishProfiles\HostDemo.pubxml" />
     <None Include="Scripts\jquery-2.1.1.intellisense.js" />
     <Content Include="Scripts\jquery-2.1.1.js" />
@@ -310,6 +325,7 @@
     <Content Include="Views\Components\_PromoImage.cshtml" />
     <Content Include="Views\Components\_HeaderPanel.cshtml" />
     <Content Include="Views\Shared\_LogoBar.cshtml" />
+    <Content Include="Views\Components\CasinoGame.cshtml" />
     <Content Include="Views\Layout\Wrapbootstrap\row.cshtml" />
     <Content Include="Views\Layout\Wrapbootstrap\col.cshtml" />
     <Content Include="Views\Components\_SocialShare.cshtml" />
