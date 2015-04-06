@@ -61,11 +61,13 @@ namespace Inspinia_MVC5_SeedProject
 
             // Site Themes
             bundles.Add(new StyleBundle("~/themes/green").Include(
-                      "~/Content/themes/Green/green.css"));
+                      "~/Content/themes/Green/Green.css"));
             bundles.Add(new StyleBundle("~/themes/blue").Include(
-                     "~/Content/themes/Blue/blue.css"));
+                     "~/Content/themes/Blue/Blue.css"));
             bundles.Add(new StyleBundle("~/themes/pink").Include(
-                     "~/Content/themes/Pink/pink.css"));
+                     "~/Content/themes/Pink/Pink.css"));
+            bundles.Add(new StyleBundle("~/themes/greygreen").Include(
+                     "~/Content/themes/GreyGreen/GreyGreen.css"));
 
             //Ridiculous Responsive Social Share
             bundles.Add(new ScriptBundle("~/plugins/socialshare").Include(

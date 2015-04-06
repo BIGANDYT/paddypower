@@ -1,0 +1,72 @@
+----item----
+version: 1
+id: {1849EBD8-8BB6-406B-AD32-3E766FF0FDA1}
+database: master
+path: /sitecore/content/Casino
+parent: {0DE95AE4-41AB-4D01-9EB0-67441B7C2450}
+name: Casino
+master: {00000000-0000-0000-0000-000000000000}
+template: {27351021-529A-498F-83B1-AE3CC3E24D7E}
+templatekey: Site
+
+----version----
+language: en
+version: 1
+revision: f1c957d9-f98c-48c0-9392-efaf616c10ef
+
+----field----
+field: {AC65A5A4-88D0-4055-921A-9560D65C23BB}
+name: NavLogo
+key: navlogo
+content-length: 58
+
+<image mediaid="{21F6219D-2596-4DEA-A955-2D81995FB345}" />
+----field----
+field: {E780709F-E80C-40F5-BB74-32EA5A8C817B}
+name: SiteStyle
+key: sitestyle
+content-length: 9
+
+greygreen
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 4655
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{8762D12C-DCF6-49AF-B5CB-FEF7FDBE8988}"><p:d /></r><r uid="{4136A070-DB6F-4ED9-A970-ECC67831A204}" p:before="r[@uid='{21B07742-5F0B-4304-9E2A-2E75B002D6D7}']" s:id="{355D970A-2022-498B-8F91-D97B715C620C}" s:ph="/content/row_7ce947d0-e2b9-4126-b1b5-16344633856d/col_3f67da60-366e-4195-9325-5bd6ac8fdeec/row_137c24d1-c551-4487-9812-53c4fb93cf5e/col_ec8e6c10-72ab-4bd6-ad8f-b70fdc98d128/panel-column_9b4fd0c5-12d1-4af0-a113-4238ae98fce0" /><r uid="{21B07742-5F0B-4304-9E2A-2E75B002D6D7}" p:before="r[@uid='{6BD2686E-DFF8-422E-B783-7C340D2D7194}']" s:ds="{F1689DE2-CB72-4BEF-8589-EA9BC302DEFD}" s:id="{D0F7D054-EFB8-476F-BAC3-C9FBB22B76BA}" s:ph="/content/row_7ce947d0-e2b9-4126-b1b5-16344633856d/col_3f67da60-366e-4195-9325-5bd6ac8fdeec/row_137c24d1-c551-4487-9812-53c4fb93cf5e/col_56010e79-4b6e-41f3-9124-aa1e6ce6efdc" /><r uid="{6BD2686E-DFF8-422E-B783-7C340D2D7194}" p:before="r[@uid='{DE8A3DF0-EF9B-4FC0-9125-2ABACAD28EB7}']" s:ds="{BB48365A-C703-4951-9E66-FC26D6D0500E}" s:id="{D0F7D054-EFB8-476F-BAC3-C9FBB22B76BA}" s:ph="/content/row_7ce947d0-e2b9-4126-b1b5-16344633856d/col_3f67da60-366e-4195-9325-5bd6ac8fdeec/row_137c24d1-c551-4487-9812-53c4fb93cf5e/col_56010e79-4b6e-41f3-9124-aa1e6ce6efdc" /><r uid="{DE8A3DF0-EF9B-4FC0-9125-2ABACAD28EB7}" p:before="r[@uid='{9B4FD0C5-12D1-4AF0-A113-4238AE98FCE0}']" s:ds="{1B52E0A2-EFBB-4622-9CDD-0E128565030D}" s:id="{D0F7D054-EFB8-476F-BAC3-C9FBB22B76BA}" s:ph="/content/row_7ce947d0-e2b9-4126-b1b5-16344633856d/col_3f67da60-366e-4195-9325-5bd6ac8fdeec/row_137c24d1-c551-4487-9812-53c4fb93cf5e/col_56010e79-4b6e-41f3-9124-aa1e6ce6efdc" /><r uid="{9B4FD0C5-12D1-4AF0-A113-4238AE98FCE0}" p:before="r[@uid='{EC8E6C10-72AB-4BD6-AD8F-B70FDC98D128}']" s:ds="" s:id="{73741A1C-B231-4B5A-A1D8-68A69647DEE1}" s:par="Title=SLOTS&amp;IconClass" s:ph="/content/row_7ce947d0-e2b9-4126-b1b5-16344633856d/col_3f67da60-366e-4195-9325-5bd6ac8fdeec/row_137c24d1-c551-4487-9812-53c4fb93cf5e/col_ec8e6c10-72ab-4bd6-ad8f-b70fdc98d128" /><r uid="{EC8E6C10-72AB-4BD6-AD8F-B70FDC98D128}" p:before="r[@uid='{56010E79-4B6E-41F3-9124-AA1E6CE6EFDC}']" s:ds="" s:id="{DC79BF70-5569-4042-85B4-8F078EC5A7E7}" s:par="CssClass=col-lg-8&amp;CssStyle" s:ph="/content/row_7ce947d0-e2b9-4126-b1b5-16344633856d/col_3f67da60-366e-4195-9325-5bd6ac8fdeec/row_137c24d1-c551-4487-9812-53c4fb93cf5e" /><r uid="{56010E79-4B6E-41F3-9124-AA1E6CE6EFDC}" p:before="r[@uid='{FC943002-F300-4471-A733-D093C5586F5A}']" s:ds="" s:id="{DC79BF70-5569-4042-85B4-8F078EC5A7E7}" s:par="CssClass=col-lg-4" s:ph="/content/row_7ce947d0-e2b9-4126-b1b5-16344633856d/col_3f67da60-366e-4195-9325-5bd6ac8fdeec/row_137c24d1-c551-4487-9812-53c4fb93cf5e" /><r uid="{FC943002-F300-4471-A733-D093C5586F5A}" p:before="r[@uid='{9B8E38DC-548B-4329-A27C-8C0FDDC24717}']" s:ds="{B2B97A58-20EF-4AE3-B488-3B5820DA3FC2}" s:id="{87DE68F5-569C-4930-9FEF-6354599BFB92}" s:ph="/content/row_7ce947d0-e2b9-4126-b1b5-16344633856d/col_3f67da60-366e-4195-9325-5bd6ac8fdeec/row_e67c6210-abb4-44cc-833f-9acdd657b28b/col_9b8e38dc-548b-4329-a27c-8c0fddc24717" /><r uid="{9B8E38DC-548B-4329-A27C-8C0FDDC24717}" p:before="r[@uid='{E67C6210-ABB4-44CC-833F-9ACDD657B28B}']" s:ds="" s:id="{DC79BF70-5569-4042-85B4-8F078EC5A7E7}" s:par="CssClass=col-lg-12" s:ph="/content/row_7ce947d0-e2b9-4126-b1b5-16344633856d/col_3f67da60-366e-4195-9325-5bd6ac8fdeec/row_e67c6210-abb4-44cc-833f-9acdd657b28b" /><r uid="{E67C6210-ABB4-44CC-833F-9ACDD657B28B}" p:before="r[@uid='{137C24D1-C551-4487-9812-53C4FB93CF5E}']" s:id="{7D36765F-0CE3-4749-A9CF-E8CACF7207F5}" s:ph="/content/row_7ce947d0-e2b9-4126-b1b5-16344633856d/col_3f67da60-366e-4195-9325-5bd6ac8fdeec" /><r uid="{137C24D1-C551-4487-9812-53C4FB93CF5E}" p:before="r[@uid='{3F67DA60-366E-4195-9325-5BD6AC8FDEEC}']" s:id="{7D36765F-0CE3-4749-A9CF-E8CACF7207F5}" s:ph="/content/row_7ce947d0-e2b9-4126-b1b5-16344633856d/col_3f67da60-366e-4195-9325-5bd6ac8fdeec" /><r uid="{3F67DA60-366E-4195-9325-5BD6AC8FDEEC}" p:before="r[@uid='{7CE947D0-E2B9-4126-B1B5-16344633856D}']" s:ds="" s:id="{DC79BF70-5569-4042-85B4-8F078EC5A7E7}" s:par="CssClass=col-lg-6%20col-lg-offset-3&amp;CssStyle=background-color%3A%23676a6c" s:ph="/content/row_7ce947d0-e2b9-4126-b1b5-16344633856d" /><r uid="{7CE947D0-E2B9-4126-B1B5-16344633856D}" p:before="r[@uid='{C1E47CAB-6597-4AB1-929C-F5636455663A}']" s:id="{7D36765F-0CE3-4749-A9CF-E8CACF7207F5}" s:ph="content" /><r uid="{C1E47CAB-6597-4AB1-929C-F5636455663A}" p:before="r[@uid='{21740AAE-C3DE-45DE-B80F-CC96A78E130F}']" s:ds="{1849EBD8-8BB6-406B-AD32-3E766FF0FDA1}" s:id="{79939680-7FCE-43B0-80FA-662DDA27407C}" s:par="" s:ph="nav-left" /></d></r>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150406T092436Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f1c957d9-f98c-48c0-9392-efaf616c10ef
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150406T135243:635639251639250556Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

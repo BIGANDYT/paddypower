@@ -11,9 +11,13 @@ namespace Inspinia_MVC5_SeedProject.Models
     {
         public List<Item> Data { get; set; }
 
-        public void Initialize(Rendering rendering) {
-            Sitecore.Data.Database db = Sitecore.Data.Database.GetDatabase("master");
-            Data = db.SelectItems("fast:/sitecore/Content/Sport//*[@@templatename='Bet']").OrderBy(x => x.Name).ToList();
+        public void Initialize(Rendering rendering)
+        {
+            if (!String.IsNullOrEmpty(rendering.DataSource))
+            {
+                Item datasource = Sitecore.Context.Database.GetItem(rendering.DataSource);
+                Data = datasource.Axes.GetDescendants().OrderBy(x => x.Name).ToList();
+            }
         }
     }
 }

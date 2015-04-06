@@ -6032,18 +6032,42 @@ body.skin-3 {
     margin-left: 10px;
 }
 
-.navlist > div > div {
-    display: table-cell;
-    vertical-align: middle;
-    padding: 10px;
-    text-align: center;
-}
+    .navlist > div > div {
+        display: table-cell;
+        vertical-align: middle;
+        padding: 10px;
+        text-align: center;
+    }
 
 .top-buffer {
     margin-top: 10px;
 }
 
-.form-control::-webkit-input-placeholder { color: white; }
-.form-control:-moz-placeholder { color: white; }
-.form-control::-moz-placeholder { color: white; }
-.form-control:-ms-input-placeholder { color: white; }
+.form-control::-webkit-input-placeholder {
+    color: white;
+}
+
+.form-control:-moz-placeholder {
+    color: white;
+}
+
+.form-control::-moz-placeholder {
+    color: white;
+}
+
+.form-control:-ms-input-placeholder {
+    color: white;
+}
+
+.game_lozenge_container {
+    border: 3px solid #004833;
+    height: 125px;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+
+.game-padding {
+    padding: 10px;
+}

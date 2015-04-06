@@ -72,8 +72,8 @@ content-length: 6
 61BC45
 ----field----
 field: {990D3B74-D189-4850-9A2A-981F69D7C1FC}
-name: Link
-key: link
+name: BannerLink
+key: bannerlink
 content-length: 149
 
 <link text="Register Now" linktype="internal" class="" title="" target='Active Browser' querystring="" id="{110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9}" />

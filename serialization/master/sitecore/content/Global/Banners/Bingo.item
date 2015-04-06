@@ -12,7 +12,7 @@ templatekey: Banner
 ----version----
 language: en
 version: 1
-revision: 43de87c1-b847-4023-887d-574074dcb7f1
+revision: ec886bcb-f7e2-44ae-833b-b309888a72b9
 
 ----field----
 field: {CA684A60-ABF4-4C8F-A48A-8232C94E205E}
@@ -55,7 +55,7 @@ name: BannerTitle3
 key: bannertitle3
 content-length: 11
 
-BET $50 NOW
+BET £50 NOW
 ----field----
 field: {F28961BB-EE02-46C3-B97B-0278BC82CCBF}
 name: BannerTitle3Color
@@ -72,8 +72,8 @@ content-length: 6
 d874a8
 ----field----
 field: {990D3B74-D189-4850-9A2A-981F69D7C1FC}
-name: Link
-key: link
+name: BannerLink
+key: bannerlink
 content-length: 137
 
 <link text="" linktype="internal" class="" title="" target='Active Browser' querystring="" id="{110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9}" />
@@ -90,14 +90,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-43de87c1-b847-4023-887d-574074dcb7f1
+ec886bcb-f7e2-44ae-833b-b309888a72b9
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150404T224413:635637842531188284Z
+20150405T115838:635638319185969479Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

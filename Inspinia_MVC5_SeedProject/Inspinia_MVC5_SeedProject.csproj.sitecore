@@ -40,5 +40,8 @@
     <File Include="Views\Components\_SocialShare.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
       <Item DatabaseName="master">{9B221C52-DDE6-43ED-80DF-6D59C77D6686}</Item>
     </File>
+    <File Include="Views\Components\GamesList.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="master">{355D970A-2022-498B-8F91-D97B715C620C}</Item>
+    </File>
   </ItemGroup>
 </Project>

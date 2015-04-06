@@ -194,6 +194,7 @@
     <Compile Include="Helpers\HMTLHelperExtensions.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Bet.cs" />
+    <Compile Include="Models\GameList.cs" />
     <Compile Include="Models\NavList.cs" />
     <Compile Include="Models\TableData.cs" />
     <Compile Include="Models\BannerModel.cs" />
@@ -210,11 +211,13 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\patterns\congruent_pentagon.png" />
     <Content Include="Content\plugins\rrsocialshare\rrssb.css" />
+    <Content Include="Content\themes\Green\Green.css" />
+    <Content Include="Content\themes\Green\header-bg.png" />
     <Content Include="Content\themes\Pink\Pink.css" />
     <Content Include="Content\themes\Pink\header-bg.png" />
     <Content Include="Content\themes\Blue\Blue.css" />
     <Content Include="Content\themes\Blue\header-bg.png" />
-    <Content Include="Content\themes\Green\header-bg.png" />
+    <Content Include="Content\themes\GreyGreen\header-bg.png" />
     <Content Include="Content\patterns\header-profile-skin-1.png" />
     <Content Include="Content\patterns\header-profile-skin-2.png" />
     <Content Include="Content\patterns\header-profile-skin-3.png" />
@@ -222,7 +225,7 @@
     <Content Include="Content\patterns\shattered.png" />
     <Content Include="Content\patterns\triangular.png" />
     <Content Include="Content\wrapbootstrap.css" />
-    <Content Include="Content\themes\Green\Green.css" />
+    <Content Include="Content\themes\GreyGreen\GreyGreen.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\font-awesome\css\font-awesome.css" />
     <Content Include="fonts\font-awesome\css\font-awesome.min.css" />
@@ -310,6 +313,7 @@
     <Content Include="Views\Layout\Wrapbootstrap\row.cshtml" />
     <Content Include="Views\Layout\Wrapbootstrap\col.cshtml" />
     <Content Include="Views\Components\_SocialShare.cshtml" />
+    <Content Include="Views\Components\GamesList.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
