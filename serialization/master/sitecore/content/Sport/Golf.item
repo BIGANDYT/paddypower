@@ -16,10 +16,17 @@ key: __icon
 content-length: 31
 
 Office/32x32/golf_club_iron.png
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 4
+
+1000
 ----version----
 language: en
 version: 1
-revision: 80f2c399-29c9-47ad-b177-6e377721feac
+revision: 0cd43d1a-0c0c-4fe2-a2d0-f630f7813a1e
 
 ----field----
 field: {BBB52EF2-B227-4425-832B-9DA944ACBC46}
@@ -62,14 +69,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-80f2c399-29c9-47ad-b177-6e377721feac
+0cd43d1a-0c0c-4fe2-a2d0-f630f7813a1e
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150329T230300:635632669807100950Z
+20150404T213916:635637803568979796Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

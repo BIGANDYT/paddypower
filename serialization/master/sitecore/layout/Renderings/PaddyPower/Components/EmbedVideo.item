@@ -31,6 +31,13 @@ content-length: 52
 
 /sitecore/templates/PaddyPower/Components/EmbedVideo
 ----field----
+field: {E441ABE7-2CA3-4640-AE26-3789967925D7}
+name: Compatible Renderings
+key: compatible renderings
+content-length: 77
+
+{9B221C52-DDE6-43ED-80DF-6D59C77D6686}|{D0F7D054-EFB8-476F-BAC3-C9FBB22B76BA}
+----field----
 field: {A2F5D9DF-8CBA-4A1D-99EB-51ACB94CB057}
 name: Page Editor Buttons
 key: page editor buttons
@@ -40,7 +47,7 @@ content-length: 38
 ----version----
 language: en
 version: 1
-revision: 08f88665-8b31-4c27-b358-90c073c1765c
+revision: 99023adb-260f-4765-847f-a20e5889fa6c
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -55,14 +62,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-08f88665-8b31-4c27-b358-90c073c1765c
+99023adb-260f-4765-847f-a20e5889fa6c
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150328T000105:635630976654955513Z
+20150405T102821:635638265019688185Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

@@ -1,5 +1,8 @@
-﻿using Sitecore.Mvc.Presentation;
+﻿using Inspinia_MVC5_SeedProject.Service;
+using Inspinia_MVC5_SeedProject.Service.Impl;
+using Sitecore.Mvc.Presentation;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,11 +11,13 @@ namespace Inspinia_MVC5_SeedProject.Models
 {
     public class TableData : IRenderingModel
     {
-        public List<string> Data { get; set; }
+        public ArrayList Data { get; set; }
+        private IBettingService bettingservice;
 
         public void Initialize(Rendering rendering)
         {
-            Data = new List<string> { "Hi", "Andy" };
+            bettingservice = new BettingService();
+            Data = bettingservice.GetBets(rendering.Parameters["markettype"]);
         }
     }
 }

@@ -23,10 +23,31 @@ key: model
 content-length: 33
 
 /sitecore/layout/Models/TableData
+----field----
+field: {FE7C64B6-FCF8-4F00-A5E8-C2D9A8CF3048}
+name: Parameters
+key: parameters
+content-length: 0
+
+
+----field----
+field: {7D24E54F-5C16-4314-90C9-6051AA1A7DA1}
+name: Parameters Template
+key: parameters template
+content-length: 38
+
+{1FED3CA4-41C7-4CD9-93C0-F1D3E0C9315B}
+----field----
+field: {EF7C5528-7307-4E19-863B-DA19EED6A9ED}
+name: Open Properties after Add
+key: open properties after add
+content-length: 1
+
+1
 ----version----
 language: en
 version: 1
-revision: 4cf0d09a-081f-4cc0-a413-d9765fefeef6
+revision: f358070b-269b-4a45-819b-d9c7246aa747
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -41,14 +62,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-4cf0d09a-081f-4cc0-a413-d9765fefeef6
+f358070b-269b-4a45-819b-d9c7246aa747
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150327T132556:635630595569278804Z
+20150404T175826:635637671066760764Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

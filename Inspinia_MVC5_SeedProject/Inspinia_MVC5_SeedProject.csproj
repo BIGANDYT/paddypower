@@ -197,6 +197,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Constant\ErrorConstants.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -206,11 +207,14 @@
     <Compile Include="Helpers\AnalyticsHelper.cs" />
     <Compile Include="Helpers\HMTLHelperExtensions.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\Bet.cs" />
     <Compile Include="Models\NavList.cs" />
     <Compile Include="Models\TableData.cs" />
     <Compile Include="Models\BannerModel.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service\IBettingService.cs" />
+    <Compile Include="Service\Impl\BettingService.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\animate.css" />
@@ -219,15 +223,20 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\patterns\congruent_pentagon.png" />
-    <Content Include="Content\patterns\header-bg.png" />
+    <Content Include="Content\plugins\rrsocialshare\rrssb.css" />
+    <Content Include="Content\themes\Pink\Pink.css" />
+    <Content Include="Content\themes\Pink\header-bg.png" />
+    <Content Include="Content\themes\Blue\Blue.css" />
+    <Content Include="Content\themes\Blue\header-bg.png" />
+    <Content Include="Content\themes\Green\header-bg.png" />
     <Content Include="Content\patterns\header-profile-skin-1.png" />
     <Content Include="Content\patterns\header-profile-skin-2.png" />
     <Content Include="Content\patterns\header-profile-skin-3.png" />
-    <Content Include="Content\patterns\header-profile.png" />
     <Content Include="Content\patterns\otis_redding.png" />
     <Content Include="Content\patterns\shattered.png" />
     <Content Include="Content\patterns\triangular.png" />
-    <Content Include="Content\style.css" />
+    <Content Include="Content\wrapbootstrap.css" />
+    <Content Include="Content\themes\Green\Green.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\font-awesome\css\font-awesome.css" />
     <Content Include="fonts\font-awesome\css\font-awesome.min.css" />
@@ -285,6 +294,7 @@
     <Content Include="Scripts\plugins\metisMenu\jquery.metisMenu.js" />
     <Content Include="Scripts\plugins\pace\pace.min.js" />
     <Content Include="Scripts\plugins\peity\jquery.peity.min.js" />
+    <Content Include="Scripts\plugins\rrsociashare\rrssb.min.js" />
     <Content Include="Scripts\plugins\slimscroll\jquery.slimscroll.min.js" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
@@ -307,18 +317,15 @@
     <Content Include="Views\Shared\_Navigation.cshtml" />
     <Content Include="Views\Shared\_TopNavbar.cshtml" />
     <Content Include="Views\Tables\_DataTables.cshtml" />
-    <Content Include="Views\Layout\_4Column.cshtml" />
-    <Content Include="Views\Layout\_3Column.cshtml" />
-    <Content Include="Views\Layout\_2Column.cshtml" />
     <Content Include="Views\Components\_EmbedVideo.cshtml" />
-    <Content Include="Views\Layout\_1Column.cshtml" />
-    <Content Include="Views\Layout\_2ColumnBigLeft.cshtml" />
     <Content Include="Views\Components\_NavList.cshtml" />
     <Content Include="Views\Components\_PromoImage.cshtml" />
     <Content Include="Views\Components\_HeaderPanel.cshtml" />
-    <Content Include="Views\Components\_TabPanel.cshtml" />
     <Content Include="Views\Shared\_LogoBar.cshtml" />
     <Content Include="Views\Components\CasinoGame.cshtml" />
+    <Content Include="Views\Layout\Wrapbootstrap\row.cshtml" />
+    <Content Include="Views\Layout\Wrapbootstrap\col.cshtml" />
+    <Content Include="Views\Components\_SocialShare.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

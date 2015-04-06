@@ -1,0 +1,16 @@
+﻿@using Sitecore.Web.UI.WebControls;
+@using Sitecore.Web;
+<!--TODO: shift this into the model-->
+@{
+    string CssClass = String.Empty;
+    var rc = Sitecore.Mvc.Presentation.RenderingContext.CurrentOrNull;
+    if (rc != null)
+    {
+        var parms = rc.Rendering.Parameters;
+        CssClass = string.IsNullOrEmpty(parms["CssClass"]) ? String.Empty : parms["CssClass"]; 
+    }
+    <div class="@CssClass">
+        @Html.Sitecore().DynamicPlaceholder("col")
+    </div>
+}
+
