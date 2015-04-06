@@ -2,9 +2,9 @@
 version: 1
 id: {1340124B-9B0E-46BF-9141-A7BAC559234E}
 database: master
-path: /sitecore/templates/Wrapbootstrap/Wrapbootstrap
+path: /sitecore/templates/Wrapbootstrap/WrapbootstrapCol
 parent: {9D2C71C7-9873-4E3B-A09E-9215C6FFC8E4}
-name: Wrapbootstrap
+name: WrapbootstrapCol
 master: {00000000-0000-0000-0000-000000000000}
 template: {AB86861A-6030-46C5-B394-E8F99E8B87DB}
 templatekey: Template
@@ -26,7 +26,7 @@ content-length: 38
 ----version----
 language: en
 version: 1
-revision: 5848e065-3f46-409b-867d-0ffcf1bcdf0f
+revision: 710066bf-6bc8-4bbe-a58b-d07f460846d3
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -48,14 +48,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-5848e065-3f46-409b-867d-0ffcf1bcdf0f
+710066bf-6bc8-4bbe-a58b-d07f460846d3
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150403T220316:635636953961035109Z
+20150406T170707:635639368271598564Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

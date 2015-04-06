@@ -12,7 +12,7 @@ templatekey: Banner
 ----version----
 language: en
 version: 1
-revision: fb0ecb1d-b41b-4243-8c96-227ba4ccb057
+revision: 19e735be-386c-450c-bdeb-f6a76836d79d
 
 ----field----
 field: {CA684A60-ABF4-4C8F-A48A-8232C94E205E}
@@ -25,9 +25,44 @@ content-length: 58
 field: {4E1E38B5-F484-43E5-93F4-78723220BDCF}
 name: BannerTitle1
 key: bannertitle1
+content-length: 6
+
+Casino
+----field----
+field: {3CB47D21-06E1-4A53-A8F2-AEC66B07992E}
+name: BannerTitle1Color
+key: bannertitle1color
+content-length: 6
+
+115945
+----field----
+field: {AD901B49-7E4F-455B-B277-27CDB31666E3}
+name: BannerTitle2
+key: bannertitle2
 content-length: 9
 
 £/€5 FREE
+----field----
+field: {0CA2445D-2575-4CEC-BFD6-2126CF8B23CC}
+name: BannerTitle2Color
+key: bannertitle2color
+content-length: 3
+
+fff
+----field----
+field: {4F95FF83-2B7A-46BE-B344-C231BF32836F}
+name: BannerTitle3
+key: bannertitle3
+content-length: 14
+
+Register today
+----field----
+field: {F28961BB-EE02-46C3-B97B-0278BC82CCBF}
+name: BannerTitle3Color
+key: bannertitle3color
+content-length: 6
+
+115945
 ----field----
 field: {12D5D5A6-EB3C-4404-BEC0-A9D40A3E2B77}
 name: BannerBackColor
@@ -48,14 +83,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-fb0ecb1d-b41b-4243-8c96-227ba4ccb057
+19e735be-386c-450c-bdeb-f6a76836d79d
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150406T104408:635639138488623079Z
+20150406T174042:635639388423496764Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

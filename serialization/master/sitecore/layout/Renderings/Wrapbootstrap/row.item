@@ -16,10 +16,31 @@ key: path
 content-length: 38
 
 /Views/Layout/Wrapbootstrap/row.cshtml
+----field----
+field: {DDAB263E-B42E-419A-AA6F-081B7393CA38}
+name: Model
+key: model
+content-length: 32
+
+/sitecore/layout/Models/RowModel
+----field----
+field: {7D24E54F-5C16-4314-90C9-6051AA1A7DA1}
+name: Parameters Template
+key: parameters template
+content-length: 38
+
+{0D6297FE-608B-4131-ABF2-A53B14CE2CCB}
+----field----
+field: {EF7C5528-7307-4E19-863B-DA19EED6A9ED}
+name: Open Properties after Add
+key: open properties after add
+content-length: 1
+
+1
 ----version----
 language: en
 version: 1
-revision: 1ef4ce8f-8a64-4a64-a9be-582e19666cf7
+revision: f2346a0b-4e20-4e18-965f-11e97dd53063
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -34,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-1ef4ce8f-8a64-4a64-a9be-582e19666cf7
+f2346a0b-4e20-4e18-965f-11e97dd53063
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150403T192558:635636859580575787Z
+20150406T172411:635639378513147245Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

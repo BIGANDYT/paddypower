@@ -6066,8 +6066,22 @@ body.skin-3 {
     -moz-background-size: 100% 100%;
     -o-background-size: 100% 100%;
     background-size: 100% 100%;
+    padding:0px;
 }
 
 .game-padding {
     padding: 10px;
+}
+
+.game-image {
+    height: 100%;
+    width: 100%;
+}
+
+.text-cut-off {   
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display:inline-block
 }

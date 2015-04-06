@@ -12,8 +12,22 @@ templatekey: SiteSection
 ----version----
 language: en
 version: 1
-revision: 4a4ee149-c79e-444c-ac05-90bb95c7a11c
+revision: f03699cc-2563-44d4-8729-98bf7688ce13
 
+----field----
+field: {EA2AB9D8-1953-43AD-B740-EB473F4780E2}
+name: Title
+key: title
+content-length: 4
+
+Bets
+----field----
+field: {B43A08BA-EBB1-478D-BD90-8DD771A41F16}
+name: Text
+key: text
+content-length: 21
+
+Bets information here
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
@@ -27,14 +41,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-4a4ee149-c79e-444c-ac05-90bb95c7a11c
+f03699cc-2563-44d4-8729-98bf7688ce13
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150406T083654:635639062143528648Z
+20150406T145201:635639287213228951Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

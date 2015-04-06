@@ -210,6 +210,7 @@
     <Compile Include="Models\Bet.cs" />
     <Compile Include="Models\GameList.cs" />
     <Compile Include="Models\NavList.cs" />
+    <Compile Include="Models\RowModel.cs" />
     <Compile Include="Models\TableData.cs" />
     <Compile Include="Models\BannerModel.cs" />
     <Compile Include="Models\IdentityModels.cs" />

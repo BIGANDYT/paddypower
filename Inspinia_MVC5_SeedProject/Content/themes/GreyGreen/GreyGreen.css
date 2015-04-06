@@ -47,9 +47,21 @@ body {
 }
 
 .navlist:hover {
-    background-color: #61BC45;
+    background-color: #115945;
 }
 
 .headerpanel {
     background: url('/Content/themes/Green/header-bg.png') repeat-x;
 }
+
+.btn-primary {
+    background-color: #fff;
+    border-color: #48494C;
+    color: #48494C;
+}
+
+    .btn-primary:hover,
+    .btn-primary:focus {
+        background-color: #48494C;
+        border-color: #fff;
+    }

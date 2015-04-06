@@ -1,23 +1,23 @@
 ----item----
 version: 1
-id: {F7968D00-4D4E-4C3C-A853-BA93E7998074}
+id: {E90B2D27-53CB-41BE-B377-93B4229940ED}
 database: master
-path: /sitecore/templates/Wrapbootstrap/Wrapbootstrap/__Standard Values
-parent: {1340124B-9B0E-46BF-9141-A7BAC559234E}
+path: /sitecore/templates/Wrapbootstrap/WrapbootstrapRow/__Standard Values
+parent: {0D6297FE-608B-4131-ABF2-A53B14CE2CCB}
 name: __Standard Values
 master: {00000000-0000-0000-0000-000000000000}
-template: {1340124B-9B0E-46BF-9141-A7BAC559234E}
-templatekey: Wrapbootstrap
+template: {0D6297FE-608B-4131-ABF2-A53B14CE2CCB}
+templatekey: WrapbootstrapRow
 
 ----version----
 language: en
 version: 1
-revision: 1ef686ce-8efc-4f75-af38-18a90aafbe54
+revision: d75b6c58-e951-4937-8ebf-456448e76646
 
 ----field----
-field: {11CE5012-994E-4576-888D-DC29FB805A4A}
-name: CssClass
-key: cssclass
+field: {C4E845ED-1F07-4E0E-AB08-67A2E53BA602}
+name: BackgroundImage
+key: backgroundimage
 content-length: 9
 
 col-lg-12
@@ -48,14 +48,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-1ef686ce-8efc-4f75-af38-18a90aafbe54
+d75b6c58-e951-4937-8ebf-456448e76646
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150403T220316:635636953961146256Z
+20150406T170736:635639368564320731Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

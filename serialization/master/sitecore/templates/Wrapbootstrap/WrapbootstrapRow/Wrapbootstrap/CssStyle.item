@@ -1,9 +1,9 @@
 ----item----
 version: 1
-id: {497E8E54-4585-47C2-8901-E62665CFFAA8}
+id: {88017C7E-7C20-4169-B046-954331909211}
 database: master
-path: /sitecore/templates/Wrapbootstrap/Wrapbootstrap/Wrapbootstrap/CssStyle
-parent: {53953F4B-A0A5-4B26-8A29-B87ADBBC54E8}
+path: /sitecore/templates/Wrapbootstrap/WrapbootstrapRow/Wrapbootstrap/CssStyle
+parent: {F5C9DF4D-2006-452F-8D86-209F582136ED}
 name: CssStyle
 master: {00000000-0000-0000-0000-000000000000}
 template: {455A3E98-A627-4B40-8035-E683A0331AC7}

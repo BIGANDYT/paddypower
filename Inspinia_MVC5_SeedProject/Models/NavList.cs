@@ -16,7 +16,7 @@ namespace Inspinia_MVC5_SeedProject.Models
             if (!String.IsNullOrEmpty(rendering.DataSource))
             {
                 Item datasource = Sitecore.Context.Database.GetItem(rendering.DataSource);
-                Data = datasource.Axes.GetDescendants().OrderBy(x => x.Name).ToList();
+                Data = datasource.Children.OrderBy(x => x.Name).ToList();
             }
         }
     }

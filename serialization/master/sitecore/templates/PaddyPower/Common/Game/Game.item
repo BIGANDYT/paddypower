@@ -1,10 +1,10 @@
 ----item----
 version: 1
-id: {53953F4B-A0A5-4B26-8A29-B87ADBBC54E8}
+id: {4F25A509-FEAC-4BA8-A425-DA20CDDAF75B}
 database: master
-path: /sitecore/templates/Wrapbootstrap/Wrapbootstrap/Wrapbootstrap
-parent: {1340124B-9B0E-46BF-9141-A7BAC559234E}
-name: Wrapbootstrap
+path: /sitecore/templates/PaddyPower/Common/Game/Game
+parent: {758DB274-529F-4BE7-B5EC-4C922CB7E8A3}
+name: Game
 master: {00000000-0000-0000-0000-000000000000}
 template: {E269FBB5-3750-427A-9149-7AA950B49301}
 templatekey: Template section
@@ -12,7 +12,7 @@ templatekey: Template section
 ----version----
 language: en
 version: 1
-revision: ec26346d-6dc5-4571-a747-40578f01a398
+revision: 852cbe30-4350-49ed-b3d4-0afd24325d0f
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -20,7 +20,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20150403T195727Z
+20150406T142739Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -34,14 +34,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-ec26346d-6dc5-4571-a747-40578f01a398
+852cbe30-4350-49ed-b3d4-0afd24325d0f
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150406T115219:635639179394279918Z
+20150406T144322:635639282029845806Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

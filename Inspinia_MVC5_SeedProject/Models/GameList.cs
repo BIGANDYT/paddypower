@@ -1,4 +1,5 @@
-﻿using Sitecore.Data.Items;
+﻿using Sitecore.Collections;
+using Sitecore.Data.Items;
 using Sitecore.Mvc.Presentation;
 using System;
 using System.Collections.Generic;
@@ -16,7 +17,7 @@ namespace Inspinia_MVC5_SeedProject.Models
             if (!String.IsNullOrEmpty(rendering.DataSource))
             {
                 Item datasource = Sitecore.Context.Database.GetItem(rendering.DataSource);
-                Data = datasource.Axes.GetDescendants().OrderBy(x => x.Name).ToList();
+                Data = datasource.Children.OrderBy(x => x.Name).ToList();
             }
         }
     }

@@ -16,10 +16,17 @@ key: __icon
 content-length: 30
 
 Office/32x32/window_dialog.png
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 77
+
+{B2970AEE-4BC3-47F8-A7BD-02C5E970DCDA}|{758DB274-529F-4BE7-B5EC-4C922CB7E8A3}
 ----version----
 language: en
 version: 1
-revision: 979207e9-675f-4f89-bcc5-a7e1e5ba7902
+revision: 13ed64d1-fd76-4fd7-816c-02ffde1df154
 
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
@@ -48,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-979207e9-675f-4f89-bcc5-a7e1e5ba7902
+13ed64d1-fd76-4fd7-816c-02ffde1df154
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150406T081723:635639050436820312Z
+20150406T143819:635639278994075350Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
