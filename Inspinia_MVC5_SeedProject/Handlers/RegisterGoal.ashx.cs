@@ -2,11 +2,13 @@
 
 namespace Inspinia_MVC5_SeedProject.Handlers
 {
+    using System.Web.SessionState;
+
     using Inspinia_MVC5_SeedProject.Helpers;
     using Sitecore.Data;
     using Sitecore.Diagnostics;
 
-    public class RegisterGoal : IHttpHandler
+    public class RegisterGoal : IHttpHandler, IRequiresSessionState
     {
         public void ProcessRequest(HttpContext context)
         {
