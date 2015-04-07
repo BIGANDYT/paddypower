@@ -1,47 +1,44 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project>
+﻿<Project>
   <PropertyGroup>
     <Site Server="paddypower" UserName="sitecore\admin" IsRemoteSitecore="True" />
   </PropertyGroup>
-  <ItemGroup>
-    <File Include="Views\Components\_Banner.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
-      <Item DatabaseName="master">{87DE68F5-569C-4930-9FEF-6354599BFB92}</Item>
-    </File>
-    <File Include="Views\Tables\_DataTables.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
-      <Item DatabaseName="master">{46914D6E-267A-4E0B-B9B1-66B92FF57D39}</Item>
-    </File>
-    <File Include="Views\Components\_EmbedVideo.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
-      <Item DatabaseName="master">{6D236429-DC1E-47C9-9CCE-F7D31E38233E}</Item>
-    </File>
-    <File Include="Views\Shared\_TopNavbar.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
-      <Item DatabaseName="master">{8B07173E-AC10-463B-BFE8-4AB246DD7508}</Item>
-    </File>
-    <File Include="Views\Components\_NavList.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
-      <Item DatabaseName="master">{79939680-7FCE-43B0-80FA-662DDA27407C}</Item>
-    </File>
-    <File Include="Views\Shared\_Navigation.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
-      <Item DatabaseName="master">{C9143C03-A2D2-4330-A614-3CD30337197F}</Item>
-    </File>
-    <File Include="Views\Components\_PromoImage.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
-      <Item DatabaseName="master">{D0F7D054-EFB8-476F-BAC3-C9FBB22B76BA}</Item>
-    </File>
-    <File Include="Views\Components\_HeaderPanel.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
-      <Item DatabaseName="master">{73741A1C-B231-4B5A-A1D8-68A69647DEE1}</Item>
-    </File>
-    <File Include="Views\Shared\_LogoBar.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
-      <Item DatabaseName="master">{57A9BDCA-E1FF-44AD-810C-2117B6F38F7F}</Item>
-    </File>
-    <File Include="Views\Layout\Wrapbootstrap\row.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
-      <Item DatabaseName="master">{7D36765F-0CE3-4749-A9CF-E8CACF7207F5}</Item>
-    </File>
-    <File Include="Views\Layout\Wrapbootstrap\col.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
-      <Item DatabaseName="master">{DC79BF70-5569-4042-85B4-8F078EC5A7E7}</Item>
-    </File>
-    <File Include="Views\Components\_SocialShare.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
-      <Item DatabaseName="master">{9B221C52-DDE6-43ED-80DF-6D59C77D6686}</Item>
-    </File>
-    <File Include="Views\Components\GamesList.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
-      <Item DatabaseName="master">{355D970A-2022-498B-8F91-D97B715C620C}</Item>
-    </File>
-  </ItemGroup>
+  <File Include="Views\Components\_Banner.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{87DE68F5-569C-4930-9FEF-6354599BFB92}</Item>
+  </File>
+  <File Include="Views\Tables\_DataTables.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{46914D6E-267A-4E0B-B9B1-66B92FF57D39}</Item>
+  </File>
+  <File Include="Views\Components\_EmbedVideo.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{6D236429-DC1E-47C9-9CCE-F7D31E38233E}</Item>
+  </File>
+  <File Include="Views\Shared\_TopNavbar.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{8B07173E-AC10-463B-BFE8-4AB246DD7508}</Item>
+  </File>
+  <File Include="Views\Components\_NavList.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{79939680-7FCE-43B0-80FA-662DDA27407C}</Item>
+  </File>
+  <File Include="Views\Shared\_Navigation.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{C9143C03-A2D2-4330-A614-3CD30337197F}</Item>
+  </File>
+  <File Include="Views\Components\_PromoImage.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{D0F7D054-EFB8-476F-BAC3-C9FBB22B76BA}</Item>
+  </File>
+  <File Include="Views\Components\_HeaderPanel.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{73741A1C-B231-4B5A-A1D8-68A69647DEE1}</Item>
+  </File>
+  <File Include="Views\Shared\_LogoBar.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{57A9BDCA-E1FF-44AD-810C-2117B6F38F7F}</Item>
+  </File>
+  <File Include="Views\Layout\Wrapbootstrap\row.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{7D36765F-0CE3-4749-A9CF-E8CACF7207F5}</Item>
+  </File>
+  <File Include="Views\Layout\Wrapbootstrap\col.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{DC79BF70-5569-4042-85B4-8F078EC5A7E7}</Item>
+  </File>
+  <File Include="Views\Components\_SocialShare.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{9B221C52-DDE6-43ED-80DF-6D59C77D6686}</Item>
+  </File>
+  <File Include="Views\Components\GamesList.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{355D970A-2022-498B-8F91-D97B715C620C}</Item>
+  </File>
 </Project>

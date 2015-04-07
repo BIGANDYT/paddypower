@@ -19,6 +19,12 @@
         if (!casinoGames) {
             casinoGames = true;
 
+            function popupwindow(url, title, w, h) {
+                var left = (screen.width / 2) - (w / 2);
+                var top = (screen.height / 2) - (h / 2);
+                return window.open(url, title, 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width=' + w + ', height=' + h + ', top=' + top + ', left=' + left);
+            }
+
             (function($) {
                 $(document).ready(function() {
                     $('.casino-game').each(function() {
@@ -26,12 +32,12 @@
                             e.preventDefault();
 
                             $.ajax({
-                                url: "/"
+                                url: "/handlers/registergoal.ashx?goalid=" + $(this).attr('data-goal-id')
                             }).done(function() {
                                 console.log("AJAX done");
                             });
 
-                            window.open($(this).attr('data-url'), "popupWindow", "width=600,height=800,scrollbars=yes");
+                            popupwindow($(this).attr('data-url'), "CasinoGame", 600, 800);
                         });
                     });
                 });

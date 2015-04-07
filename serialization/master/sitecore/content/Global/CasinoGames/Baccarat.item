@@ -13,9 +13,9 @@ templatekey: CasinoGame
 field: {BD71F6E2-1E75-49B6-90F6-5A257226F866}
 name: Croupier
 key: croupier
-content-length: 58
+content-length: 65
 
-<image mediaid="{E515FD4E-187B-4860-9552-82C0543C7CA9}" />
+<image mediaid="{E515FD4E-187B-4860-9552-82C0543C7CA9}" ></image>
 ----field----
 field: {5F74B981-39C6-4FAA-8D00-CA0982519894}
 name: Goal
@@ -33,7 +33,7 @@ https://www.paddypower.com/thirdparty?action=go_playtech_live_casino_login&ptliv
 ----version----
 language: en
 version: 1
-revision: 4e65ebcb-04b9-4dfc-85c4-dee2478402db
+revision: 85bfbd58-c424-461f-b50d-67c656ff5ab9
 
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
@@ -62,14 +62,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-4e65ebcb-04b9-4dfc-85c4-dee2478402db
+85bfbd58-c424-461f-b50d-67c656ff5ab9
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150331T134017:635634060173198569Z
+20150407T151053:635640162538650735Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -77,3 +77,10 @@ key: __updated by
 content-length: 14
 
 sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />
