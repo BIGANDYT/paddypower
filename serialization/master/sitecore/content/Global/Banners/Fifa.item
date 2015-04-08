@@ -12,7 +12,7 @@ templatekey: Banner
 ----version----
 language: en
 version: 1
-revision: 97c7d196-2229-4d50-9a07-6f6049e817c4
+revision: 866d5142-ee6f-4e04-a971-65d6d0d6a03b
 
 ----field----
 field: {CA684A60-ABF4-4C8F-A48A-8232C94E205E}
@@ -46,9 +46,9 @@ eGAMING
 field: {990D3B74-D189-4850-9A2A-981F69D7C1FC}
 name: BannerLink
 key: bannerlink
-content-length: 149
+content-length: 140
 
-<link text="Register Now" linktype="internal" class="" title="" target='Active Browser' querystring="" id="{774D5D5C-61BC-4035-B0FF-9DA39F7288F4}" />
+<link text="Register Now" linktype="internal" class="" title="" target='_self' querystring="" id="{774D5D5C-61BC-4035-B0FF-9DA39F7288F4}" />
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
@@ -62,14 +62,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-97c7d196-2229-4d50-9a07-6f6049e817c4
+866d5142-ee6f-4e04-a971-65d6d0d6a03b
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150408T215751:635641270712898242Z
+20150408T223123:635641290836559506Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

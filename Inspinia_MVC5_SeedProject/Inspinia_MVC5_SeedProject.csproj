@@ -204,6 +204,9 @@
     <Compile Include="Handlers\RegisterGoal.ashx.cs">
       <DependentUpon>RegisterGoal.ashx</DependentUpon>
     </Compile>
+    <Compile Include="Handlers\SessionEnd.ashx.cs">
+      <DependentUpon>SessionEnd.ashx</DependentUpon>
+    </Compile>
     <Compile Include="Helpers\AnalyticsHelper.cs" />
     <Compile Include="Helpers\HMTLHelperExtensions.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -291,6 +294,7 @@
     <Content Include="App_Config\Include\DynamicPlaceholders\DynamicPlaceholders.config" />
     <Content Include="App_Config\Include\Serialization.config" />
     <Content Include="Handlers\RegisterGoal.ashx" />
+    <Content Include="Handlers\SessionEnd.ashx" />
     <None Include="Properties\PublishProfiles\HostDemo.pubxml" />
     <None Include="Scripts\jquery-2.1.1.intellisense.js" />
     <Content Include="Scripts\jquery-2.1.1.js" />

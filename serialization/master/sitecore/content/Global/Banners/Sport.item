@@ -12,7 +12,7 @@ templatekey: Banner
 ----version----
 language: en
 version: 1
-revision: b6c4e92a-aa21-4778-8bf7-1aaaf9510788
+revision: 262f4b4b-2fce-4937-b70e-15d90690d7de
 
 ----field----
 field: {CA684A60-ABF4-4C8F-A48A-8232C94E205E}
@@ -74,9 +74,9 @@ content-length: 6
 field: {990D3B74-D189-4850-9A2A-981F69D7C1FC}
 name: BannerLink
 key: bannerlink
-content-length: 149
+content-length: 140
 
-<link text="Register Now" linktype="internal" class="" title="" target='Active Browser' querystring="" id="{774D5D5C-61BC-4035-B0FF-9DA39F7288F4}" />
+<link text="Register Now" linktype="internal" class="" title="" target='_self' querystring="" id="{774D5D5C-61BC-4035-B0FF-9DA39F7288F4}" />
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -104,14 +104,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-b6c4e92a-aa21-4778-8bf7-1aaaf9510788
+262f4b4b-2fce-4937-b70e-15d90690d7de
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150408T215327:635641268075035335Z
+20150408T223138:635641290980271999Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
