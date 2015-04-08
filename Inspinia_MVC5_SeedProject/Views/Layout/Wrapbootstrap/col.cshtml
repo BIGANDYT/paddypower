@@ -1,6 +1,4 @@
-﻿@using Sitecore.Web.UI.WebControls;
-@using Sitecore.Web;
-@{
+﻿@{
     string CssClass = String.Empty;
     string CssStyle = String.Empty;
     var rc = Sitecore.Mvc.Presentation.RenderingContext.CurrentOrNull;
@@ -14,4 +12,3 @@
         @Html.Sitecore().DynamicPlaceholder("col")
     </div>
 }
-
