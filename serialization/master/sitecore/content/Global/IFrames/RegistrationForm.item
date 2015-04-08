@@ -12,7 +12,7 @@ templatekey: Iframe
 ----version----
 language: en
 version: 1
-revision: bc43b0b7-9ebd-4f0e-824e-34e89d59d11c
+revision: 0ebfb3c7-abd6-4dd2-a572-c84689068bdf
 
 ----field----
 field: {98D2C23B-45FF-401D-AB1E-86FEB73CD40F}
@@ -20,7 +20,7 @@ name: IFrame Link
 key: iframe link
 content-length: 352
 
-<iframe src="https://www.paddypower.com/bet?&amp;action=go_registration_iframe&amp;bus_channel=&amp;area=SB&amp;button=openregbutton&amp;LANG=en&amp;lang_change=Y&amp;contentproto=https" class="reg_form_wrapper left" frameborder="0" scrolling="no" id="registration_iframe" height="1367" width="1000" style="margin-top:10px;  margin-left:55px"></iframe>
+<iframe src="https://www.paddypower.com/bet?&amp;action=go_registration_iframe&amp;bus_channel=&amp;area=SB&amp;button=openregbutton&amp;LANG=en&amp;lang_change=Y&amp;contentproto=https" class="reg_form_wrapper left" frameborder="0" scrolling="no" id="registration_iframe" height="1367" width="1000" style="margin-top:10px;  margin-left:45px"></iframe>
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
@@ -34,14 +34,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-bc43b0b7-9ebd-4f0e-824e-34e89d59d11c
+0ebfb3c7-abd6-4dd2-a572-c84689068bdf
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150408T124925:635640941657737403Z
+20150408T125439:635640944799264823Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
