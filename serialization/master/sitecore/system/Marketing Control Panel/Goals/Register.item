@@ -17,6 +17,13 @@ content-length: 8
 
 Register
 ----field----
+field: {33AE0E84-74A0-437F-AB2B-859DFA96F6C9}
+name: Points
+key: points
+content-length: 3
+
+100
+----field----
 field: {89776A46-3319-43F2-9D80-4FEB8A8E069E}
 name: IsAuthorFeedback
 key: isauthorfeedback
@@ -183,7 +190,7 @@ content-length: 38
 ----version----
 language: en
 version: 1
-revision: 914ede25-d6b0-458b-bd7d-56d3443bbe46
+revision: 9b67796a-33c3-4d52-b72a-b76d7ea8bb01
 
 ----field----
 field: {797466F5-763B-4299-B6AD-E4192BF21222}
@@ -219,14 +226,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-914ede25-d6b0-458b-bd7d-56d3443bbe46
+9b67796a-33c3-4d52-b72a-b76d7ea8bb01
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 34
+content-length: 35
 
-20110524T153110:634418478703168852
+20150408T170545:635641095457668946Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

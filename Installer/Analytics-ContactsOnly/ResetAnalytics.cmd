@@ -32,10 +32,10 @@ rd /s /q sitecore_analytics_index
 del *.bak
 %UnZip% SitecoreReporting.zip
 ::TODO: Get from ConnectionStrings.config
-sqlcmd -S .\ -U sa -P 10Philpot -Q "sp_detach_db [paddypowerSitecore_reporting]"
+sqlcmd -S .\SQLEXPRESS -U sa -P 10Philpot -Q "sp_detach_db [paddypowerSitecore_reporting]"
 del %RootFolder%\Databases\*Analytics*
 del %RootFolder%\Databases\*Reporting*
-sqlcmd -S .\ -U sa -P 10Philpot -Q "RESTORE DATABASE [paddypowerSitecore_reporting] FROM DISK = '%CD%\reporting.bak' WITH MOVE 'Sitecore.Analytics' TO '%RootFolder%\Databases\paddypowerSitecore_reporting.mdf', MOVE 'Sitecore.Analytics_log' TO '%RootFolder%\Databases\paddypowerSitecore_reporting.ldf'"
+sqlcmd -S .\SQLEXPRESS -U sa -P 10Philpot -Q "RESTORE DATABASE [paddypowerSitecore_reporting] FROM DISK = '%CD%\reporting.bak' WITH MOVE 'Sitecore.Analytics' TO '%RootFolder%\Databases\paddypowerSitecore_reporting.mdf', MOVE 'Sitecore.Analytics_log' TO '%RootFolder%\Databases\paddypowerSitecore_reporting.ldf'"
 del *.bak
 
 iisreset /start

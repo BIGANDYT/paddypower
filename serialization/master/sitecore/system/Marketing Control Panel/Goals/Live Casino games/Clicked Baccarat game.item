@@ -1,10 +1,10 @@
 ----item----
 version: 1
-id: {9E6A3A81-610C-4932-9530-1A702D290C2E}
+id: {00A475D9-5076-48CC-8886-D8FC1CAA1A95}
 database: master
-path: /sitecore/system/Marketing Control Panel/Goals/Casino games/Clicked Blackjack game
+path: /sitecore/system/Marketing Control Panel/Goals/Live Casino games/Clicked Baccarat game
 parent: {33958B5C-862B-4362-8B89-019B39959E7E}
-name: Clicked Blackjack game
+name: Clicked Baccarat game
 master: {00000000-0000-0000-0000-000000000000}
 template: {475E9026-333F-432D-A4DC-52E03B75CB6B}
 templatekey: Goal
@@ -13,9 +13,16 @@ templatekey: Goal
 field: {AC6BA888-4213-43BD-B787-D8DA2B6B881F}
 name: Name
 key: name
-content-length: 22
+content-length: 21
 
-Clicked Blackjack game
+Clicked Baccarat game
+----field----
+field: {33AE0E84-74A0-437F-AB2B-859DFA96F6C9}
+name: Points
+key: points
+content-length: 2
+
+30
 ----field----
 field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
 name: __Workflow
@@ -26,7 +33,7 @@ content-length: 38
 ----version----
 language: en
 version: 1
-revision: ae71afb2-8019-416e-8ee6-97452b5b539b
+revision: 210fa6c3-82f9-4d6b-8473-2d8719cacdbf
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -34,21 +41,21 @@ name: __Created
 key: __created
 content-length: 16
 
-20150331T133517Z
+20150331T133803Z
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-ae71afb2-8019-416e-8ee6-97452b5b539b
+210fa6c3-82f9-4d6b-8473-2d8719cacdbf
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150331T133517:635634057176809254Z
+20150408T170610:635641095704824302Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -62,4 +69,11 @@ name: __Workflow state
 key: __workflow state
 content-length: 38
 
-{39156DC0-21C6-4F64-B641-31E85C8F5DFE}
+{EDCBB550-BED3-490F-82B8-7B2F14CCD26E}
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />
