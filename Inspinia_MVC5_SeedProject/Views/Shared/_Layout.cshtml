@@ -24,10 +24,6 @@
     @Scripts.Render("~/plugins/fittext")
     @Scripts.Render("~/plugins/socialshare")
 
-    <script>
-        var updatingChart = jQuery2(".line").peity("line", { width: 64, fill: ["green"] });
-        @(Sitecore.Context.PageMode.IsPageEditorEditing ? null : Html.Raw("jQuery2(\".fittext\").fitText();"))
-    </script>
 </head>
 <body>
 
@@ -51,5 +47,10 @@
 
     </div>
     <!-- End wrapper-->
+
+    <script>
+        var updatingChart = jQuery2(".marketgraph").peity("line", { width: 64, fill: ["green"] });
+        @(Sitecore.Context.PageMode.IsPageEditorEditing ? null : Html.Raw("jQuery2(\".fittext\").fitText();"))
+    </script>
 </body>
 </html>
