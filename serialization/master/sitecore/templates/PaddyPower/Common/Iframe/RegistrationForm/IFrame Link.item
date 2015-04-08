@@ -2,7 +2,7 @@
 version: 1
 id: {98D2C23B-45FF-401D-AB1E-86FEB73CD40F}
 database: master
-path: /sitecore/templates/PaddyPower/Components/Iframe/RegistrationForm/IFrame Link
+path: /sitecore/templates/PaddyPower/Common/Iframe/RegistrationForm/IFrame Link
 parent: {F6C03001-D124-439D-B351-D0B83B3E809D}
 name: IFrame Link
 master: {00000000-0000-0000-0000-000000000000}
