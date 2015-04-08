@@ -12,7 +12,7 @@ templatekey: Banner
 ----version----
 language: en
 version: 1
-revision: 19e735be-386c-450c-bdeb-f6a76836d79d
+revision: 50b335c7-024a-42ff-a430-af50ddeb33f9
 
 ----field----
 field: {CA684A60-ABF4-4C8F-A48A-8232C94E205E}
@@ -67,9 +67,9 @@ content-length: 6
 field: {12D5D5A6-EB3C-4404-BEC0-A9D40A3E2B77}
 name: BannerBackColor
 key: bannerbackcolor
-content-length: 6
+content-length: 0
 
-BDC2C6
+
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
@@ -83,14 +83,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-19e735be-386c-450c-bdeb-f6a76836d79d
+50b335c7-024a-42ff-a430-af50ddeb33f9
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150406T174042:635639388423496764Z
+20150408T082536:635640783360475058Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
