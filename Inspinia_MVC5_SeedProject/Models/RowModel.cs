@@ -13,6 +13,7 @@ namespace Inspinia_MVC5_SeedProject.Models
     {
         public String BackgroundImgUrl = "";
         public String CssStyle = "";
+        public String CssClass = "";
 
         public void Initialize(Rendering rendering)
         {
@@ -25,7 +26,9 @@ namespace Inspinia_MVC5_SeedProject.Models
                     BackgroundImgUrl = MediaManager.GetMediaUrl(imageItem);
                 }
             }
+
             CssStyle = rendering.Parameters["CssStyle"];
+            CssClass = rendering.Parameters["CssClass"];
         }
     }
 }
