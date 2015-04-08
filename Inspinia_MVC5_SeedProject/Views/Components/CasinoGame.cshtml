@@ -2,6 +2,7 @@
 @using Sitecore.Mvc.Presentation
 @model RenderingModel
 <div class="casino-game" data-goal-id="@Model.Item["Goal"]" data-url="@Model.Item["ThirdPartyUrl"]">
+    <div class="casino-game-title">@Model.Item.DisplayName</div>
     @Html.Sitecore().Field("Croupier", Model.Item, new { @class = "img-responsive" })
 </div>
 
@@ -11,6 +12,9 @@
     <style type="text/css">
         .casino-game {
             cursor: pointer;
+        }
+        .casino-game-title {
+            background-color: black;
         }
     </style>
     <script>
