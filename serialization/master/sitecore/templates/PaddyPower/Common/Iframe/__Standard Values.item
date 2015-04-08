@@ -2,7 +2,7 @@
 version: 1
 id: {FEF3754B-9F1F-4516-A7EA-50279CEF875C}
 database: master
-path: /sitecore/templates/PaddyPower/Components/Iframe/__Standard Values
+path: /sitecore/templates/PaddyPower/Common/Iframe/__Standard Values
 parent: {95293530-2420-4D6C-8FF1-6CD0A5D73396}
 name: __Standard Values
 master: {00000000-0000-0000-0000-000000000000}

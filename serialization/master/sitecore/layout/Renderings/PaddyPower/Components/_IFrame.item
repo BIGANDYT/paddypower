@@ -24,13 +24,6 @@ content-length: 30
 
 /sitecore/layout/Models/IFrame
 ----field----
-field: {7D24E54F-5C16-4314-90C9-6051AA1A7DA1}
-name: Parameters Template
-key: parameters template
-content-length: 0
-
-
-----field----
 field: {EF7C5528-7307-4E19-863B-DA19EED6A9ED}
 name: Open Properties after Add
 key: open properties after add
