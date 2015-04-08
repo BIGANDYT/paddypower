@@ -227,6 +227,8 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\patterns\congruent_pentagon.png" />
     <Content Include="Content\plugins\rrsocialshare\rrssb.css" />
+    <Content Include="Content\themes\Gold\Gold.css" />
+    <Content Include="Content\themes\Gold\header-bg.png" />
     <Content Include="Content\themes\Green\Green.css" />
     <Content Include="Content\themes\Green\header-bg.png" />
     <Content Include="Content\themes\Pink\Pink.css" />
