@@ -50,6 +50,14 @@ namespace Inspinia_MVC5_SeedProject.Service.Impl
             bets.Add("Salford Red Devils v Wigan Warriors");
             bets.Add("Parramatta Eels v Wests Tigers");
             allbets.Add("Rugby", bets);
+            bets = new List<String>();
+            bets.Add("TCM Gaming (UK) v SSOF Gaming (Brazil)");
+            bets.Add("Epsilon Esports (UK) v Aztek Gaming (Mexico)");
+            bets.Add("TEC Intensity (UK) v Nsp (South Korea)");
+            bets.Add("Team Orbit (UK) Immunity (Australia)");
+            bets.Add("Vitality Returns (France) VexX Revenge (Canada)");
+            bets.Add("Killerfish (Germany) v Echelon (Singapore)");
+            allbets.Add("Gaming", bets);
         }
     }
 }
