@@ -12,22 +12,29 @@ templatekey: Banner
 ----version----
 language: en
 version: 1
-revision: 8012e268-df3a-4da0-8610-c23b69c91878
+revision: ab6058f5-263c-402e-9eec-5aa0f5ac9fdd
 
+----field----
+field: {CA684A60-ABF4-4C8F-A48A-8232C94E205E}
+name: BannerImage
+key: bannerimage
+content-length: 58
+
+<image mediaid="{C89C1432-057E-4C9D-9E49-74A99E37F4B2}" />
 ----field----
 field: {4E1E38B5-F484-43E5-93F4-78723220BDCF}
 name: BannerTitle1
 key: bannertitle1
 content-length: 9
 
-FIFA 2015
+FIWC 2015
 ----field----
 field: {AD901B49-7E4F-455B-B277-27CDB31666E3}
 name: BannerTitle2
 key: bannertitle2
-content-length: 12
+content-length: 11
 
-CHAMPIONSHIP
+STARTS NOW!
 ----field----
 field: {4F95FF83-2B7A-46BE-B344-C231BF32836F}
 name: BannerTitle3
@@ -48,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-8012e268-df3a-4da0-8610-c23b69c91878
+ab6058f5-263c-402e-9eec-5aa0f5ac9fdd
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150408T204905:635641229454551512Z
+20150408T210338:635641238187717712Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
